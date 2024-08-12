@@ -1388,8 +1388,6 @@ PRODUCT_PACKAGES += \
     libdsd2pcm \
     libdsi_netctrl \
     libdsutils \
-    libeai_fixed \
-    libeai_float \
     libembmsservice \
     libengineplugin \
     libeva \
@@ -1429,7 +1427,6 @@ PRODUCT_PACKAGES += \
     liblbs_core \
     liblearningmodule \
     liblightninglaunches \
-    liblistensoundmodel2vendor \
     liblmthermallistner \
     liblmutils-ns \
     libloc_api_v02 \
@@ -1779,8 +1776,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.esepowermanager@1.1 \
     vendor.qti.gnss-V3-ndk_platform \
     vendor.qti.gnss-service \
-    vendor.qti.hardware.ListenSoundModel@1.0-impl \
-    vendor.qti.hardware.ListenSoundModel@1.0 \
     vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
