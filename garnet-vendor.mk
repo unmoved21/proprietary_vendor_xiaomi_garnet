@@ -896,41 +896,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/xiaomi/garnet/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
     vendor/xiaomi/garnet/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_aac_ov64b40_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_aac_ov64b40_wide_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_ofilm_imx355_ultra_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_ofilm_imx355_ultra_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_ofilm_ov02b10_macro_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_ofilm_ov02b10_macro_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_ofilm_ov16a1q_front_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_ofilm_ov16a1q_front_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_ofilm_s5k3p9sp04_front_iiii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_ofilm_s5k3p9sp04_front_iiii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_ofilm_s5khp3_wide_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_ofilm_s5khp3_wide_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_sunny_imx355_ultra_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_sunny_imx355_ultra_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_sunny_ov02b10_macro_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_sunny_ov02b10_macro_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_sunny_ov16a1q_front_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_sunny_ov16a1q_front_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_sunny_s5k3p9sp04_front_iii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_sunny_s5k3p9sp04_front_iii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_sunny_s5khp3_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_sunny_s5khp3_wide_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_aac_ov64b40_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_aac_ov64b40_wide_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_imx355_ultra_global_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_imx355_ultra_global_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_imx355_ultra_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_imx355_ultra_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_ov02b10_macro_global_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_ov02b10_macro_global_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_ov02b10_macro_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_ov02b10_macro_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_ov16a1q_front_global_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_ov16a1q_front_global_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_ov16a1q_front_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_ov16a1q_front_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_s5k3p9sp04_front_iiii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_s5k3p9sp04_front_iiii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_s5khp3_wide_global_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_s5khp3_wide_global_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_s5khp3_wide_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_s5khp3_wide_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_imx355_ultra_global_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_imx355_ultra_global_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_imx355_ultra_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_imx355_ultra_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_ov02b10_macro_global_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_ov02b10_macro_global_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_ov02b10_macro_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_ov02b10_macro_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_ov16a1q_front_global_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_ov16a1q_front_global_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_ov16a1q_front_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_ov16a1q_front_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_s5k3p9sp04_front_iii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_s5k3p9sp04_front_iii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_s5khp3_wide_global_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_s5khp3_wide_global_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_s5khp3_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_s5khp3_wide_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreview.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreviewlite.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideo.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.sensormodule.garnet_aac_ov64b40_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.garnet_aac_ov64b40_wide_i.bin \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.sensormodule.garnet_ofilm_imx355_ultra_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.garnet_ofilm_imx355_ultra_ii.bin \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.sensormodule.garnet_ofilm_ov02b10_macro_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.garnet_ofilm_ov02b10_macro_ii.bin \
@@ -968,51 +933,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.0-impl \
-    com.qti.eisv2 \
-    com.qti.eisv3 \
-    com.qti.stats.aec \
-    com.qti.stats.aecxcore \
-    com.qti.stats.af \
-    com.qti.stats.afd \
-    com.qti.stats.asd \
-    com.qti.stats.awb \
-    com.qti.stats.cnndriver \
-    com.qti.stats.haf \
-    com.qti.stats.localhistogram \
-    com.qti.stats.pdlib \
-    com.qti.stats.pdlibsony \
-    com.qti.stats.pdlibwrapper \
-    com.qti.stats.statsgenerator \
-    com.qti.stats.tracker \
-    camx.device@3.2-impl \
-    camx.device@3.3-impl \
-    camx.device@3.4-ext-impl \
-    camx.device@3.4-impl \
-    camx.device@3.5-ext-impl \
-    camx.device@3.5-impl \
-    camx.device@3.6-ext-impl \
-    camx.device@3.6-impl \
-    camx.device@3.7-impl \
-    camx.provider@2.4-external \
-    camx.provider@2.4-impl \
-    camx.provider@2.4-legacy \
-    camx.provider@2.5-external \
-    camx.provider@2.5-legacy \
-    camx.provider@2.6-legacy \
-    camx.provider@2.7-legacy \
-    com.qti.settings.clarence \
-    com.qti.settings.netrani \
-    com.qti.stats.common \
-    com.qualcomm.qti.dpm.api@1.0 \
-    com.qualcomm.qti.imscmservice@1.0 \
-    com.qualcomm.qti.imscmservice@2.0 \
-    com.qualcomm.qti.imscmservice@2.1 \
-    com.qualcomm.qti.imscmservice@2.2 \
-    com.qualcomm.qti.uceservice@2.0 \
-    com.qualcomm.qti.uceservice@2.1 \
-    com.qualcomm.qti.uceservice@2.2 \
-    com.qualcomm.qti.uceservice@2.3 \
     eglSubDriverAndroid \
     libEGL_adreno \
     libGLESv1_CM_adreno \
@@ -1020,540 +940,31 @@ PRODUCT_PACKAGES += \
     libVkLayer_ADRENO_qprofiler \
     libq3dtools_adreno \
     libq3dtools_esx \
-    android.hardware.gatekeeper@1.0-impl-qti \
-    android.hardware.gnss-aidl-impl-qti \
-    android.hardware.gnss@2.1-impl-qti \
     consumerir.qcom \
-    sound_trigger.primary.parrot \
-    vendor.qti.esepowermanager@1.1-impl \
-    vendor.qti.hardware.alarm@1.0-impl \
-    vendor.qti.hardware.capabilityconfigstore@1.0-impl \
-    vendor.qti.hardware.qccvndhal@1.0-impl \
-    vendor.qti.hardware.qseecom@1.0-impl \
-    vendor.qti.hardware.qteeconnector@1.0-impl \
-    vendor.qti.hardware.servicetracker@1.2-impl \
-    vendor.qti.hardware.soter@1.0-impl \
-    vendor.qti.memory.pasrmanager@1.0-impl \
-    vendor.xiaomi.hardware.quickcamera@1.0-impl \
     vulkan.adreno \
-    lib-imscommon \
-    lib-imsdpl \
-    lib-imsqimf \
-    lib-imsrcsservice \
-    lib-imsservice \
-    lib-imsvtcore \
-    lib-imsxml \
-    lib-rtpcommon \
-    lib-rtpcore \
-    lib-rtpsl \
-    libAF \
-    libAlacSwDec \
-    libApeSwDec \
     libCB \
-    libEvrcSwCodec \
-    libFlacSwDec \
-    libGPQTEEC_vendor \
-    libGPTEE_vendor \
-    libGPreqcancel \
-    libGPreqcancel_svc \
-    libMiVDR \
     libOpenCL \
-    libPlatformValidatorShared \
     libQSEEComAPI \
-    libQTEEConnector_listener \
-    libQTEEConnector_vendor \
-    libQcelp13SwCodec \
-    libQnnChrometraceProfilingReader \
-    libQnnCpu \
-    libQnnDsp \
-    libQnnDspNetRunExtensions \
-    libQnnDspV65CalculatorStub \
-    libQnnDspV65Stub \
-    libQnnDspV65StubInternal \
-    libQnnDspV66CalculatorStub \
-    libQnnDspV66Stub \
-    libQnnDspV66StubInternal \
-    libQnnGpu \
-    libQnnGpuNetRunExtensions \
-    libQnnGpuProfilingReader \
-    libQnnHta \
-    libQnnHtaNetRunExtensions \
-    libQnnHtp \
-    libQnnHtpNetRunExtensions \
-    libQnnHtpPrepare \
-    libQnnHtpProfilingReader \
-    libQnnHtpV68CalculatorStub \
-    libQnnHtpV68Stub \
-    libQnnHtpV69CalculatorStub \
-    libQnnHtpV69Stub \
-    libQnnHtpV73CalculatorStub \
-    libQnnHtpV73Stub \
-    libQnnSaver \
-    libQnnSystem \
-    libQtiRilLoadable \
-    libSNPE \
-    libSnpeDspV65Stub \
-    libSnpeDspV66Stub \
-    libSnpeHta \
-    libSnpeHtpPrepare \
-    libSnpeHtpV68Stub \
-    libSnpeHtpV69Stub \
-    libSnpeHtpV73Stub \
-    libTouchInputVM \
-    libTrustedInput \
-    libTrustedInputTZ \
-    libTrustedUI \
-    libTrustedUITZ \
-    libTrustedUIVM \
     libadreno_app_profiles \
     libadreno_utils \
     libagm \
     libar-pal \
-    libasn1cper \
-    libasn1crt \
-    libasn1crtx \
-    libbacklight-calib \
-    libbase64 \
-    libbatching \
-    libc++_shared \
-    libcacertclient \
-    libcalculator \
-    libcalculator_htp \
-    libcamera_nn_stub \
-    libcamxcommonutils \
-    libcamxexternalformatutils \
-    libcamxfacialfeatures \
-    libcamxfdalgo \
-    libcamxfdengine \
-    libcamxhwnodecontext \
-    libcamxifestriping \
-    libcamxqsatalgo \
-    libcamxsettingsmanager \
-    libcamxstatscore \
-    libcamxswprocessalgo \
-    libcamxtintlessalgo \
-    libcdfw \
-    libcdfw_remote_api \
-    libcdsp_default_listener \
-    libcdsprpc \
-    libcne \
-    libcneapiclient \
-    libcneoplookup \
-    libcneqmiutils \
-    libconfigdb \
-    libcpion \
-    libcv_common \
-    libcvp2_1 \
-    libdataitems \
     libdiag \
-    libdigital-dimming \
-    libdisp-aba \
-    libdisplayqos \
-    libdisplayskuutils \
-    libdpmqmihal \
-    libdpps \
-    libdrmfs \
-    libdrmtime \
-    libdsd2pcm \
-    libdsi_netctrl \
-    libdsutils \
-    libengineplugin \
-    libeva \
-    libfastcrc \
-    libfastcvdsp_stub \
-    libfastcvopt \
-    libgame_enhance \
-    libgdtap \
-    libgeofencing \
-    libgnss \
-    libgnsspps \
-    libgps.utils \
     libgpudataproducer \
-    libgrpc++_unsecure \
     libgsl \
-    libhdr_backlight_adapter \
-    libhdr_tm \
-    libhdrdynamic \
-    libhdrdynamicootf \
-    libhme \
-    libhta_hexagon_runtime_qnn \
-    libhta_hexagon_runtime_snpe \
-    libidl \
-    libizat_client_api \
-    libizat_core \
-    libjnihelper \
     libkcl \
     libkernelmanager \
-    libkeymasterdeviceutils \
-    libkeymasterprovision \
-    libkeymasterutils \
-    liblbs_core \
-    liblistensoundmodel2vendor \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
-    libloc_api_v02 \
-    libloc_api_wds \
-    libloc_base_util \
-    libloc_core \
-    libloc_eng_hub \
-    libloc_mq_client \
-    libloc_qwes_iface \
-    libloc_ril_client \
-    libloc_socket \
-    libloc_util \
-    liblocation_api \
-    liblocationservice \
-    liblocationservice_glue \
-    liblocdiagiface \
-    liblowi_client \
-    liblowi_common \
-    liblowi_wifihal \
-    liblqe \
-    libmasc \
-    libmdmdetect \
-    libmdsprpc \
-    libmemutils \
-    libmfido \
-    libmialgo_ai_vision \
-    libmialgo_utils \
-    libminkdescriptor \
-    libminksocket_vendor \
-    libmlipay \
-    libmlipay@1.1 \
-    libmm-hdcpmgr \
-    libmmcamera_bestats \
-    libmmcamera_cac \
-    libmmcamera_lscv35 \
-    libmmcamera_lut2d \
-    libmmcamera_mfnr \
-    libmmcamera_mfnr_t4 \
-    libmmcamera_pdpc \
-    libmt \
-    libnative-api \
-    libnetmgr \
-    libnetmgr_common \
-    libnetmgr_datapath_proxy \
-    libnetmgr_nr_fusion \
-    libnetmgr_rmnet_ext \
-    libnetmgr_sscm3 \
-    libnetmgr_utils \
-    libnetmgrext_interface_client \
-    libnetmgrext_interface_server \
-    libnetmgrmodemproxy \
-    libnetmgrportutils \
-    libnetmgrxfrmutils \
-    libnlnetmgr \
-    liboemcrypto \
-    libops \
-    libos \
-    libpal_net_if \
-    libpasrutils \
     libpdmapper \
     libpdnotifier \
-    libperfconfig \
-    libperfgluelayer \
-    libperfioctl \
-    libperipheral_client \
-    libpowercallback \
-    libpowercore \
-    libpsmoptfeature \
-    libqc2audio_base \
-    libqc2audio_basecodec \
-    libqc2audio_core \
-    libqc2audio_hooks \
-    libqc2audio_hwaudiocodec \
-    libqc2audio_platform \
-    libqc2audio_swaudiocodec \
-    libqc2audio_utils \
-    libqc2colorconvertfilter \
-    libqc2filter \
-    libqcbor \
-    libqcc_file_agent \
-    libqcci_legacy \
-    libqcmaputils \
-    libqcodec2_base \
-    libqcodec2_basecodec \
-    libqcodec2_core \
-    libqcodec2_filterbase \
-    libqcodec2_hooks \
-    libqcodec2_mockfilter \
-    libqcodec2_mockqc2filter \
-    libqcodec2_platform \
-    libqcodec2_utils \
-    libqcodec2_v4l2codec \
-    libqcrilDataModule \
-    libqcrilNr \
-    libqcrilNrFramework \
-    libqcrilNrLogger \
-    libqcrilNrQtiBus \
-    libqcrilNrQtiMutex \
-    libqcrildataaidl \
-    libqcrildatactl \
-    libqcrildataqos \
-    libqdcm-algo \
-    libqdcm-json-mode-parser \
-    libqdcm-mode-parser \
-    libqdi \
-    libqdma_file_agent \
-    libqdp \
-    libqdpr \
-    libqesdk \
-    libqesdk_manager \
-    libqisl \
-    libqmi \
     libqmi_cci \
-    libqmi_client_helper \
-    libqmi_client_qmux \
     libqmi_common_so \
-    libqmi_csi \
-    libqmi_csvt_srvc \
     libqmi_encdec \
-    libqmi_legacy \
-    libqmiextservices \
-    libqmiservices \
-    libqms_client \
-    libqppe \
-    libqrtr \
-    libqrtrclient \
-    libqseed3 \
-    libqshcamera \
-    libqsocket \
-    libqti-iopd-client \
-    libqti-iopd \
-    libqti-perfd-client \
-    libqti-perfd \
-    libqti-util \
-    libqti-utils \
-    libqtikeymaster4 \
-    libqtikeymint \
-    libquickcamera \
-    librcc \
-    librcmask \
-    libril-db \
-    libril-legacy \
-    libril-qc-ltedirectdisc \
-    libril-qc-radioconfig \
-    librilqmimiscservices \
-    librpmb \
-    libscveCommon \
-    libscveCommon_stub \
-    libscveObjectSegmentation \
-    libscveObjectTracker \
-    libscveObjectTracker_stub \
-    libsdm-color \
-    libsdm-colormgr-algo \
-    libsdm-disp-vndapis \
-    libsdmextension \
-    libsdsprpc \
-    libsensorslog \
-    libshsc \
-    libshsusr_verinfo \
-    libsi \
-    libskewknob \
-    libslimclient \
-    libsn100u_fw \
-    libsn220u_fw \
-    libsnapdragoncolor-manager \
-    libsnapdragoncolor-qdcm \
-    libsns_device_mode_stub \
-    libsns_direct_channel_stub \
-    libsns_registry_skel \
-    libsnsapi \
-    libsnsdiaglog \
-    libsoc_helper \
-    libsoc_helper_jni \
-    libspcom \
-    libssc \
-    libssc_default_listener \
-    libssccalapi@2.0 \
-    libssd \
-    libsubsystem_control \
-    libsynergy_loc_api \
-    libsynx \
-    libsys_info_cache \
-    libsysmon_cdsp_skel \
-    libsystem_health_mon \
-    libtestutils \
-    libthermalclient \
-    libthreadutils \
-    libtida@1.2 \
-    libtime_genoff \
-    libtinyxml2_1 \
-    libtrustedapploader \
-    libultrasound_notify \
-    libvendorscenariopoweroptfeature \
-    libvideooptfeature \
-    libvideotxr \
-    libvideoutils \
-    libvmmem \
-    libwms \
-    libwqe \
-    libwvkeybox \
-    libxiaomi_qcril \
-    libxmi_slow_motion_mein \
-    libxml \
-    libxtadapter \
-    libxtwifi_server_protocol \
-    libxtwifi_server_protocol_uri_v3 \
-    libwvdrmengine \
-    nfc_nci.nqx.default.hw.v1 \
-    qcrilInterfaces \
-    qcrilMarshal \
-    qcrilNrQmiModule \
-    qcril_client \
-    qcrild_libqcrilnr \
-    qcrild_libqcrilnrutils \
-    qti.video.utils.videobufferlayout \
-    qtiPeripheralMgr \
-    qtiril-utils \
-    qtiwakelock \
-    sensors.ssc \
-    sensors.touch.detect \
-    sensors.ultrasoundproximity \
-    vendor.display.color@1.0 \
-    vendor.display.color@1.1 \
-    vendor.display.color@1.2 \
-    vendor.display.color@1.3 \
-    vendor.display.color@1.4 \
-    vendor.display.color@1.5 \
-    vendor.display.color@1.6 \
-    vendor.display.color@1.7 \
-    vendor.display.postproc@1.0 \
-    vendor.libdpmctmgr \
-    vendor.libdpmfdmgr \
-    vendor.libdpmframework \
-    vendor.libdpmtcm \
-    vendor.libmwqemiptablemgr \
-    vendor.nxp.hardware.nfc@2.0 \
-    vendor.qti.data.factory@2.0 \
-    vendor.qti.data.factory@2.1 \
-    vendor.qti.data.factory@2.2 \
-    vendor.qti.data.factory@2.3 \
-    vendor.qti.data.factory@2.4 \
-    vendor.qti.data.factory@2.5 \
-    vendor.qti.data.mwqem@1.0 \
-    vendor.qti.data.slm@1.0 \
-    vendor.qti.diaghal@1.0 \
-    vendor.qti.esepowermanager@1.0 \
-    vendor.qti.esepowermanager@1.1 \
-    vendor.qti.gnss-V3-ndk_platform \
-    vendor.qti.gnss-service \
     vendor.qti.hardware.AGMIPC@1.0-impl \
-    vendor.qti.hardware.ListenSoundModel@1.0-impl \
-    vendor.qti.hardware.ListenSoundModel@1.0 \
-    vendor.qti.hardware.alarm@1.0 \
-    vendor.qti.hardware.cacert@1.0 \
-    vendor.qti.hardware.data.cne.internal.api@1.0 \
-    vendor.qti.hardware.data.cne.internal.constants@1.0 \
-    vendor.qti.hardware.data.cne.internal.server@1.0 \
-    vendor.qti.hardware.data.cne.internal.server@1.1 \
-    vendor.qti.hardware.data.cne.internal.server@1.2 \
-    vendor.qti.hardware.data.connection@1.0 \
-    vendor.qti.hardware.data.connection@1.1 \
-    vendor.qti.hardware.data.connectionfactory-V1-ndk_platform \
-    vendor.qti.hardware.data.dataactivity-V1-ndk_platform \
-    vendor.qti.hardware.data.dynamicdds@1.0 \
-    vendor.qti.hardware.data.dynamicdds@1.1 \
-    vendor.qti.hardware.data.flow@1.0 \
-    vendor.qti.hardware.data.iwlan@1.0 \
-    vendor.qti.hardware.data.iwlan@1.1 \
-    vendor.qti.hardware.data.ka-V1-ndk_platform \
-    vendor.qti.hardware.data.latency@1.0 \
-    vendor.qti.hardware.data.lce@1.0 \
-    vendor.qti.hardware.data.qmi@1.0 \
-    vendor.qti.hardware.dpmservice@1.0 \
-    vendor.qti.hardware.dpmservice@1.1 \
-    vendor.qti.hardware.dsp@1.0 \
-    vendor.qti.hardware.iop@1.0 \
-    vendor.qti.hardware.iop@2.0 \
-    vendor.qti.hardware.mwqemadapter@1.0 \
-    vendor.qti.hardware.power.powermodule@1.0 \
-    vendor.qti.hardware.qccsyshal@1.0 \
-    vendor.qti.hardware.qccsyshal@1.1 \
-    vendor.qti.hardware.qccvndhal@1.0-halimpl \
-    vendor.qti.hardware.qccvndhal@1.0 \
-    vendor.qti.hardware.qseecom@1.0 \
-    vendor.qti.hardware.qteeconnector@1.0 \
-    vendor.qti.hardware.radio.am@1.0 \
-    vendor.qti.hardware.radio.atcmdfwd@1.0 \
-    vendor.qti.hardware.radio.ims-V7-ndk_platform \
-    vendor.qti.hardware.radio.ims@1.0 \
-    vendor.qti.hardware.radio.ims@1.1 \
-    vendor.qti.hardware.radio.ims@1.2 \
-    vendor.qti.hardware.radio.ims@1.3 \
-    vendor.qti.hardware.radio.ims@1.4 \
-    vendor.qti.hardware.radio.ims@1.5 \
-    vendor.qti.hardware.radio.ims@1.6 \
-    vendor.qti.hardware.radio.ims@1.7 \
-    vendor.qti.hardware.radio.ims@1.8 \
-    vendor.qti.hardware.radio.internal.deviceinfo@1.0 \
-    vendor.qti.hardware.radio.lpa@1.0 \
-    vendor.qti.hardware.radio.lpa@1.1 \
-    vendor.qti.hardware.radio.lpa@1.2 \
-    vendor.qti.hardware.radio.qcrilhook@1.0 \
-    vendor.qti.hardware.radio.qtiradio-V5-ndk_platform \
-    vendor.qti.hardware.radio.qtiradio@1.0 \
-    vendor.qti.hardware.radio.qtiradio@2.0 \
-    vendor.qti.hardware.radio.qtiradio@2.1 \
-    vendor.qti.hardware.radio.qtiradio@2.2 \
-    vendor.qti.hardware.radio.qtiradio@2.3 \
-    vendor.qti.hardware.radio.qtiradio@2.4 \
-    vendor.qti.hardware.radio.qtiradio@2.5 \
-    vendor.qti.hardware.radio.qtiradio@2.6 \
-    vendor.qti.hardware.radio.uim@1.0 \
-    vendor.qti.hardware.radio.uim@1.1 \
-    vendor.qti.hardware.radio.uim@1.2 \
-    vendor.qti.hardware.radio.uim_remote_client@1.0 \
-    vendor.qti.hardware.radio.uim_remote_client@1.1 \
-    vendor.qti.hardware.radio.uim_remote_client@1.2 \
-    vendor.qti.hardware.radio.uim_remote_server@1.0 \
-    vendor.qti.hardware.slmadapter@1.0 \
-    vendor.qti.hardware.soter@1.0 \
-    vendor.qti.hardware.trustedui@1.0 \
-    vendor.qti.hardware.trustedui@1.1 \
-    vendor.qti.hardware.trustedui@1.2 \
-    vendor.qti.hardware.tui_comm@1.0 \
-    vendor.qti.hardware.vpp@1.1 \
-    vendor.qti.hardware.vpp@1.2 \
-    vendor.qti.hardware.vpp@1.3 \
-    vendor.qti.hardware.vpp@2.0 \
-    vendor.qti.ims.callcapability@1.0 \
-    vendor.qti.ims.callinfo@1.0 \
-    vendor.qti.ims.configservice@1.0 \
-    vendor.qti.ims.configservice@1.1 \
-    vendor.qti.ims.connection@1.0 \
-    vendor.qti.ims.factory@1.0 \
-    vendor.qti.ims.factory@1.1 \
-    vendor.qti.ims.factory@2.0 \
-    vendor.qti.ims.factory@2.1 \
-    vendor.qti.ims.factory@2.2 \
-    vendor.qti.ims.rcsconfig@1.0 \
-    vendor.qti.ims.rcsconfig@1.1 \
-    vendor.qti.ims.rcsconfig@2.0 \
-    vendor.qti.ims.rcsconfig@2.1 \
-    vendor.qti.ims.rcssip@1.0 \
-    vendor.qti.ims.rcssip@1.1 \
-    vendor.qti.ims.rcssip@1.2 \
-    vendor.qti.ims.rcsuce@1.0 \
-    vendor.qti.ims.rcsuce@1.1 \
-    vendor.qti.ims.rcsuce@1.2 \
-    vendor.qti.imsrtpservice@3.0-service-Impl \
-    vendor.qti.imsrtpservice@3.0 \
-    vendor.qti.latency@2.0 \
-    vendor.qti.latency@2.1 \
-    vendor.qti.memory.pasrmanager@1.0 \
-    vendor.qti.memory.pasrmanager@1.1 \
-    vendor.qti.power.pasrmanager@1.0 \
-    vendor.qti.qesdsys-V1-ndk_platform \
-    vendor.qti.qspmhal@1.0-impl \
     vendor.qti.qspmhal@1.0 \
-    vendor.xiaomi.hardware.mfidoca@1.0 \
-    vendor.xiaomi.hardware.quickcamera@1.0 \
-    vendor.xiaomi.hardware.tidaservice@1.0 \
-    vendor.xiaomi.hardware.tidaservice@1.1 \
-    vendor.xiaomi.hardware.tidaservice@1.2 \
-    libeai_fixed_32 \
+    android.hardware.secure_element@1.0-impl \
     btaudio_offload_if \
     com.qti.actuator.garnet_aac_ov64b40_dw9800v_wide_i_actuator \
     com.qti.actuator.garnet_ofilm_s5khp3_gt9764ber_wide_ii_actuator \
@@ -1599,6 +1010,8 @@ PRODUCT_PACKAGES += \
     com.mi.node.videobokeh \
     com.mi.node.videofilter \
     com.qti.camx.chiiqutils \
+    com.qti.eisv2 \
+    com.qti.eisv3 \
     com.qti.hvx.addconstant \
     com.qti.hvx.binning \
     com.qti.node.afbfusion \
@@ -1639,10 +1052,24 @@ PRODUCT_PACKAGES += \
     com.qti.node.swpreprocess \
     com.qti.node.swregistration \
     com.qti.node.swvrt \
+    com.qti.stats.aec \
     com.qti.stats.aecwrapper \
+    com.qti.stats.aecxcore \
+    com.qti.stats.af \
+    com.qti.stats.afd \
     com.qti.stats.afwrapper \
+    com.qti.stats.asd \
+    com.qti.stats.awb \
     com.qti.stats.awbwrapper \
+    com.qti.stats.cnndriver \
+    com.qti.stats.haf \
     com.qti.stats.hafoverride \
+    com.qti.stats.localhistogram \
+    com.qti.stats.pdlib \
+    com.qti.stats.pdlibsony \
+    com.qti.stats.pdlibwrapper \
+    com.qti.stats.statsgenerator \
+    com.qti.stats.tracker \
     com.qtistatic.stats.aec \
     com.qtistatic.stats.af \
     com.qtistatic.stats.awb \
@@ -1676,6 +1103,22 @@ PRODUCT_PACKAGES += \
     com.xiaomi.plugin.supermoon \
     com.xiaomi.plugin.swjpegencode \
     com.xiaomi.plugin.tsskinbeautifier \
+    camx.device@3.2-impl \
+    camx.device@3.3-impl \
+    camx.device@3.4-ext-impl \
+    camx.device@3.4-impl \
+    camx.device@3.5-ext-impl \
+    camx.device@3.5-impl \
+    camx.device@3.6-ext-impl \
+    camx.device@3.6-impl \
+    camx.device@3.7-impl \
+    camx.provider@2.4-external \
+    camx.provider@2.4-impl \
+    camx.provider@2.4-legacy \
+    camx.provider@2.5-external \
+    camx.provider@2.5-legacy \
+    camx.provider@2.6-legacy \
+    camx.provider@2.7-legacy \
     com.qti.chiusecaseselector \
     com.qti.feature2.anchorsync \
     com.qti.feature2.demux \
@@ -1710,14 +1153,29 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.statsregeneration \
     com.qti.feature2.stub \
     com.qti.feature2.swmf \
+    com.qti.settings.clarence \
+    com.qti.settings.netrani \
+    com.qti.stats.common \
     com.qualcomm.mcx.distortionmapper \
     com.qualcomm.mcx.linearmapper \
     com.qualcomm.mcx.policy.mfl \
     com.qualcomm.mcx.policy.xr \
     com.qualcomm.qti.bluetooth_audio@1.0 \
+    com.qualcomm.qti.dpm.api@1.0 \
+    com.qualcomm.qti.imscmservice@1.0 \
+    com.qualcomm.qti.imscmservice@2.0 \
+    com.qualcomm.qti.imscmservice@2.1 \
+    com.qualcomm.qti.imscmservice@2.2 \
     com.qualcomm.qti.mcx.usecase.extension \
+    com.qualcomm.qti.uceservice@2.0 \
+    com.qualcomm.qti.uceservice@2.1 \
+    com.qualcomm.qti.uceservice@2.2 \
+    com.qualcomm.qti.uceservice@2.3 \
     deviceInfoServiceModuleNr \
     android.hardware.bluetooth@1.0-impl-qti \
+    android.hardware.gatekeeper@1.0-impl-qti \
+    android.hardware.gnss-aidl-impl-qti \
+    android.hardware.gnss@2.1-impl-qti \
     audio.bluetooth_qti.default \
     audio.primary.parrot \
     camera.qcom \
@@ -1725,18 +1183,95 @@ PRODUCT_PACKAGES += \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
     gyro_fusion_interface \
+    sound_trigger.primary.parrot \
+    vendor.qti.esepowermanager@1.1-impl \
+    vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
     vendor.qti.hardware.btconfigstore@2.0-impl \
+    vendor.qti.hardware.capabilityconfigstore@1.0-impl \
+    vendor.qti.hardware.qccvndhal@1.0-impl \
+    vendor.qti.hardware.qseecom@1.0-impl \
+    vendor.qti.hardware.qteeconnector@1.0-impl \
+    vendor.qti.hardware.servicetracker@1.2-impl \
+    vendor.qti.hardware.soter@1.0-impl \
     vendor.qti.hardware.wifidisplaysession@1.0-impl \
+    vendor.qti.memory.pasrmanager@1.0-impl \
+    vendor.xiaomi.hardware.quickcamera@1.0-impl \
     jcos_nq_client-v1 \
+    lib-imscommon \
+    lib-imsdpl \
+    lib-imsqimf \
+    lib-imsrcsservice \
+    lib-imsservice \
+    lib-imsvtcore \
+    lib-imsxml \
+    lib-rtpcommon \
+    lib-rtpcore \
+    lib-rtpsl \
+    libAF \
+    libAlacSwDec \
+    libApeSwDec \
+    libEvrcSwCodec \
     libFileMux_proprietary \
+    libFlacSwDec \
+    libGPQTEEC_vendor \
+    libGPTEE_vendor \
+    libGPreqcancel \
+    libGPreqcancel_svc \
     libHISCppAlgos \
     libMiMotion \
+    libMiVDR \
     libOpenCL_adreno \
+    libPlatformValidatorShared \
+    libQTEEConnector_listener \
+    libQTEEConnector_vendor \
+    libQcelp13SwCodec \
+    libQnnChrometraceProfilingReader \
+    libQnnCpu \
+    libQnnDsp \
+    libQnnDspNetRunExtensions \
+    libQnnDspV65CalculatorStub \
+    libQnnDspV65Stub \
+    libQnnDspV65StubInternal \
+    libQnnDspV66CalculatorStub \
+    libQnnDspV66Stub \
+    libQnnDspV66StubInternal \
+    libQnnGpu \
+    libQnnGpuNetRunExtensions \
+    libQnnGpuProfilingReader \
+    libQnnHta \
+    libQnnHtaNetRunExtensions \
+    libQnnHtp \
+    libQnnHtpNetRunExtensions \
+    libQnnHtpPrepare \
+    libQnnHtpProfilingReader \
+    libQnnHtpV68CalculatorStub \
+    libQnnHtpV68Stub \
+    libQnnHtpV69CalculatorStub \
+    libQnnHtpV69Stub \
+    libQnnHtpV73CalculatorStub \
+    libQnnHtpV73Stub \
+    libQnnSaver \
+    libQnnSystem \
+    libQtiRilLoadable \
+    libSNPE \
+    libSnpeDspV65Stub \
+    libSnpeDspV66Stub \
+    libSnpeHta \
+    libSnpeHtpPrepare \
+    libSnpeHtpV68Stub \
+    libSnpeHtpV69Stub \
+    libSnpeHtpV73Stub \
+    libTouchInputVM \
     libTrueSight \
+    libTrustedInput \
+    libTrustedInputTZ \
+    libTrustedUI \
+    libTrustedUITZ \
+    libTrustedUIVM \
     libXMFaceFocus \
     lib_bt_aptx \
     lib_bt_ble \
@@ -1768,11 +1303,17 @@ PRODUCT_PACKAGES += \
     libarcsoft_mf_superresolution \
     libarcsoft_supernight \
     libarcsoft_supernight_front \
+    libasn1cper \
+    libasn1crt \
+    libasn1crtx \
     libats \
     libaudio_log_utils \
     libaudiocloudctrl \
     libaudioroute_ext \
     libawcal \
+    libbacklight-calib \
+    libbase64 \
+    libbatching \
     libbeauty_face_interface \
     libbitmlengine \
     libbitmlenginev2 \
@@ -1780,49 +1321,142 @@ PRODUCT_PACKAGES += \
     libbluetooth_audio_session_qti_2_1 \
     libbt-hidlclient \
     libbtnv \
+    libc++_shared \
+    libcacertclient \
+    libcalculator \
+    libcalculator_htp \
+    libcamera_nn_stub \
     libcamera_scene \
     libcamerapostproc \
     libcamlog \
+    libcamxcommonutils \
+    libcamxexternalformatutils \
+    libcamxfacialfeatures \
+    libcamxfdalgo \
+    libcamxfdengine \
+    libcamxhwnodecontext \
+    libcamxifestriping \
     libcamximageformatutils \
+    libcamxqsatalgo \
+    libcamxsettingsmanager \
+    libcamxstatscore \
     libcamxswispiqmodule \
+    libcamxswprocessalgo \
+    libcamxtintlessalgo \
     libcapiv2svacnnvendor \
     libcapiv2svarnnvendor \
     libcapiv2uvvendor \
+    libcdfw \
+    libcdfw_remote_api \
+    libcdsp_default_listener \
+    libcdsprpc \
     libceres \
     libchilog \
+    libcne \
+    libcneapiclient \
+    libcneoplookup \
+    libcneqmiutils \
     libcom.qti.chinodeutils \
     libcom.xiaomi.debug \
     libcom.xiaomi.grallocutils \
     libcom.xiaomi.mawutils \
     libcom.xiaomi.metadatautils \
     libcom.xiaomi.pluginutils \
+    libconfigdb \
+    libcpion \
+    libcv_common \
+    libcvp2_1 \
+    libdataitems \
     libdeflicker \
+    libdigital-dimming \
+    libdisp-aba \
+    libdisplayqos \
+    libdisplayskuutils \
+    libdpmqmihal \
+    libdpps \
+    libdrmfs \
+    libdrmtime \
+    libdsd2pcm \
+    libdsi_netctrl \
+    libdsutils \
     libeai_fixed \
     libeai_float \
     libembmsservice \
+    libengineplugin \
+    libeva \
+    libfastcrc \
+    libfastcvdsp_stub \
+    libfastcvopt \
     libfsalgocal \
+    libgame_enhance \
     libgarden \
     libgarden_haltests_e2e \
+    libgdtap \
+    libgeofencing \
+    libgnss \
+    libgnsspps \
+    libgps.utils \
+    libgrpc++_unsecure \
     libhdr10plus \
+    libhdr_backlight_adapter \
+    libhdr_tm \
+    libhdrdynamic \
+    libhdrdynamicootf \
+    libhme \
+    libhta_hexagon_runtime_qnn \
+    libhta_hexagon_runtime_snpe \
+    libidl \
     libipebpsstriping \
     libipebpsstriping170 \
     libipebpsstriping480 \
+    libizat_client_api \
+    libizat_core \
+    libjnihelper \
     libjpege \
     libkaraokepal \
+    libkeymasterdeviceutils \
+    libkeymasterprovision \
+    libkeymasterutils \
+    liblbs_core \
     liblearningmodule \
     liblightninglaunches \
+    liblistensoundmodel2vendor \
     liblmthermallistner \
     liblmutils-ns \
+    libloc_api_v02 \
+    libloc_api_wds \
+    libloc_base_util \
+    libloc_core \
+    libloc_eng_hub \
+    libloc_mq_client \
+    libloc_qwes_iface \
+    libloc_ril_client \
+    libloc_socket \
+    libloc_util \
+    liblocation_api \
+    liblocationservice \
+    liblocationservice_glue \
+    liblocdiagiface \
+    liblowi_client \
+    liblowi_common \
+    liblowi_wifihal \
+    liblqe \
     liblx-ar_util \
     liblx-osal \
+    libmasc \
     libmcs \
     libmctfengine_stub \
+    libmdmdetect \
+    libmdsprpc \
     libmemperfd \
+    libmemutils \
     libmeters-ns \
     libmeters \
     libmfGhostDetection \
+    libmfido \
     libmiai_deblur \
     libmiai_portraitsupernight \
+    libmialgo_ai_vision \
     libmialgo_aio_seg \
     libmialgo_basic \
     libmialgo_ellc \
@@ -1833,12 +1467,15 @@ PRODUCT_PACKAGES += \
     libmialgo_pureView \
     libmialgo_rfs \
     libmialgo_sd \
+    libmialgo_utils \
     libmialgo_video_colourkeeping \
     libmialgo_video_enhance \
     libmialgo_video_seg_depth \
     libmialgoengine \
     libmibokeh_845_video \
     libmibokeh_855 \
+    libminkdescriptor \
+    libminksocket_vendor \
     libmiphone_capture_bokeh \
     libmiphone_preview_bokeh \
     libmiracast \
@@ -1848,43 +1485,205 @@ PRODUCT_PACKAGES += \
     libmis_plugin_vidhance \
     libmisight \
     libmispowerop \
+    libmlipay \
+    libmlipay@1.1 \
+    libmm-hdcpmgr \
+    libmmcamera_bestats \
+    libmmcamera_cac \
+    libmmcamera_lscv35 \
+    libmmcamera_lut2d \
+    libmmcamera_mfnr \
+    libmmcamera_mfnr_t4 \
+    libmmcamera_pdpc \
     libmmosal_vendor \
     libmmrtpdecoder_vendor \
     libmmrtpencoder_vendor \
     libmorpho_ubwc \
     libmorpho_video_stabilizer \
     libmpbase \
+    libmt \
     libmt@1.3 \
+    libnative-api \
+    libnetmgr \
+    libnetmgr_common \
+    libnetmgr_datapath_proxy \
+    libnetmgr_nr_fusion \
+    libnetmgr_rmnet_ext \
+    libnetmgr_sscm3 \
+    libnetmgr_utils \
+    libnetmgrext_interface_client \
+    libnetmgrext_interface_server \
+    libnetmgrmodemproxy \
+    libnetmgrportutils \
+    libnetmgrxfrmutils \
+    libnlnetmgr \
+    liboemcrypto \
     libomp \
     libopencv \
     libopencv3a \
     libopestriping \
+    libops \
+    libos \
+    libpal_net_if \
+    libpasrutils \
+    libperfconfig \
+    libperfgluelayer \
+    libperfioctl \
+    libperipheral_client \
+    libpowercallback \
+    libpowercore \
     libprekill \
     libprocomp \
+    libpsmoptfeature \
     libqapesdk \
+    libqc2audio_base \
+    libqc2audio_basecodec \
+    libqc2audio_core \
+    libqc2audio_hooks \
+    libqc2audio_hwaudiocodec \
+    libqc2audio_platform \
+    libqc2audio_swaudiocodec \
+    libqc2audio_utils \
+    libqc2colorconvertfilter \
+    libqc2filter \
+    libqcbor \
+    libqcc_file_agent \
+    libqcci_legacy \
+    libqcmaputils \
+    libqcodec2_base \
+    libqcodec2_basecodec \
+    libqcodec2_core \
+    libqcodec2_filterbase \
+    libqcodec2_hooks \
+    libqcodec2_mockfilter \
+    libqcodec2_mockqc2filter \
+    libqcodec2_platform \
+    libqcodec2_utils \
+    libqcodec2_v4l2codec \
+    libqcrilDataModule \
+    libqcrilNr \
     libqcrilNrCellInfoModule \
+    libqcrilNrFramework \
     libqcrilNrImsModule \
+    libqcrilNrLogger \
     libqcrilNrPbmModule \
+    libqcrilNrQtiBus \
+    libqcrilNrQtiMutex \
     libqcrilNrSmsModule \
     libqcrilNrSocketModule \
     libqcrilNrVoiceModule \
+    libqcrildataaidl \
+    libqcrildatactl \
+    libqcrildataqos \
+    libqdcm-algo \
+    libqdcm-json-mode-parser \
+    libqdcm-mode-parser \
+    libqdi \
+    libqdma_file_agent \
+    libqdp \
+    libqdpr \
+    libqesdk \
+    libqesdk_manager \
+    libqisl \
     libqll \
     libqll10 \
     libqllengine \
+    libqmi \
+    libqmi_client_helper \
+    libqmi_client_qmux \
+    libqmi_csi \
+    libqmi_csvt_srvc \
+    libqmi_legacy \
+    libqmiextservices \
+    libqmiservices \
+    libqms_client \
+    libqppe \
+    libqrtr \
+    libqrtrclient \
+    libqseed3 \
+    libqshcamera \
+    libqsocket \
+    libqti-iopd-client \
+    libqti-iopd \
+    libqti-perfd-client \
+    libqti-perfd \
+    libqti-util \
+    libqti-utils \
     libqtigefar \
+    libqtikeymaster4 \
+    libqtikeymint \
+    libquickcamera \
     libqwes \
+    librcc \
+    librcmask \
     librelight_only \
     libremosaic_wrapper \
     libremosaiclib \
     libresampler \
+    libril-db \
+    libril-legacy \
+    libril-qc-ltedirectdisc \
+    libril-qc-radioconfig \
+    librilqmimiscservices \
+    librpmb \
+    libscveCommon \
+    libscveCommon_stub \
+    libscveObjectSegmentation \
+    libscveObjectTracker \
+    libscveObjectTracker_stub \
+    libsdm-color \
+    libsdm-colormgr-algo \
+    libsdm-disp-vndapis \
+    libsdmextension \
+    libsdsprpc \
+    libsensorslog \
     libsfeShiftExtrapolation \
+    libshsc \
+    libshsusr_verinfo \
+    libsi \
     libsilkyscrolls \
+    libskewknob \
+    libslimclient \
+    libsn100u_fw \
+    libsn220u_fw \
+    libsnapdragoncolor-manager \
+    libsnapdragoncolor-qdcm \
+    libsns_device_mode_stub \
+    libsns_direct_channel_stub \
+    libsns_registry_skel \
+    libsnsapi \
+    libsnsdiaglog \
+    libsoc_helper \
+    libsoc_helper_jni \
+    libspcom \
+    libssc \
+    libssc_default_listener \
+    libssccalapi@2.0 \
+    libssd \
     libstandbyfeature \
+    libsubsystem_control \
     libsupermoon \
     libswregistrationalgo \
+    libsynergy_loc_api \
+    libsynx \
+    libsys_info_cache \
+    libsysmon_cdsp_skel \
+    libsystem_health_mon \
+    libtestutils \
     libtfestriping \
+    libthermalclient \
+    libthreadutils \
+    libtida@1.2 \
+    libtime_genoff \
+    libtinyxml2_1 \
+    libtrustedapploader \
     libubifocus \
+    libultrasound_notify \
+    libvendorscenariopoweroptfeature \
     libvideoBokeh \
+    libvideooptfeature \
+    libvideotxr \
+    libvideoutils \
     libvidhance \
     libvidhance_active_ois \
     libvidhance_face_stabilizer \
@@ -1892,6 +1691,7 @@ PRODUCT_PACKAGES += \
     libvidhance_ldc \
     libvidhance_stabilizer \
     libvidhance_super_stabilization \
+    libvmmem \
     libwfdcodecv4l2_proprietary \
     libwfdcommonutils_proprietary \
     libwfdconfigutils_proprietary \
@@ -1912,34 +1712,198 @@ PRODUCT_PACKAGES += \
     libwfduibcsrc_vendor \
     libwfduibcsrcinterface_vendor \
     libwfdutils_proprietary \
+    libwms \
+    libwqe \
     libwvhidl \
+    libwvkeybox \
+    libxiaomi_qcril \
     libxlog \
     libxmi_hdr_checker \
     libxmi_high_dynamic_range \
+    libxmi_slow_motion_mein \
     libxmi_slow_motion_triger \
+    libxml \
+    libxtadapter \
+    libxtwifi_server_protocol \
+    libxtwifi_server_protocol_uri_v3 \
     ls_nq_client-v1 \
+    libwvdrmengine \
+    nfc_nci.nqx.default.hw.v1 \
+    qcrilInterfaces \
+    qcrilMarshal \
+    qcrilNrQmiModule \
+    qcril_client \
+    qcrild_libqcrilnr \
+    qcrild_libqcrilnrutils \
+    qti.video.utils.videobufferlayout \
+    qtiPeripheralMgr \
+    qtiril-utils \
+    qtiwakelock \
     se_nq_extn_client-v1 \
+    sensors.ssc \
+    sensors.touch.detect \
+    sensors.ultrasoundproximity \
     libasphere \
     libmisoundfx \
     libshoebox \
+    vendor.display.color@1.0 \
+    vendor.display.color@1.1 \
+    vendor.display.color@1.2 \
+    vendor.display.color@1.3 \
+    vendor.display.color@1.4 \
+    vendor.display.color@1.5 \
+    vendor.display.color@1.6 \
+    vendor.display.color@1.7 \
+    vendor.display.postproc@1.0 \
+    vendor.libdpmctmgr \
+    vendor.libdpmfdmgr \
+    vendor.libdpmframework \
+    vendor.libdpmtcm \
+    vendor.libmwqemiptablemgr \
+    vendor.nxp.hardware.nfc@2.0 \
+    vendor.qti.data.factory@2.0 \
+    vendor.qti.data.factory@2.1 \
+    vendor.qti.data.factory@2.2 \
+    vendor.qti.data.factory@2.3 \
+    vendor.qti.data.factory@2.4 \
+    vendor.qti.data.factory@2.5 \
+    vendor.qti.data.mwqem@1.0 \
+    vendor.qti.data.slm@1.0 \
+    vendor.qti.diaghal@1.0 \
+    vendor.qti.esepowermanager@1.0 \
+    vendor.qti.esepowermanager@1.1 \
+    vendor.qti.gnss-V3-ndk_platform \
+    vendor.qti.gnss-service \
+    vendor.qti.hardware.ListenSoundModel@1.0-impl \
+    vendor.qti.hardware.ListenSoundModel@1.0 \
+    vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
+    vendor.qti.hardware.cacert@1.0 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
+    vendor.qti.hardware.data.cne.internal.api@1.0 \
+    vendor.qti.hardware.data.cne.internal.constants@1.0 \
+    vendor.qti.hardware.data.cne.internal.server@1.0 \
+    vendor.qti.hardware.data.cne.internal.server@1.1 \
+    vendor.qti.hardware.data.cne.internal.server@1.2 \
+    vendor.qti.hardware.data.connection@1.0 \
+    vendor.qti.hardware.data.connection@1.1 \
+    vendor.qti.hardware.data.connectionfactory-V1-ndk_platform \
+    vendor.qti.hardware.data.dataactivity-V1-ndk_platform \
+    vendor.qti.hardware.data.dynamicdds@1.0 \
+    vendor.qti.hardware.data.dynamicdds@1.1 \
+    vendor.qti.hardware.data.flow@1.0 \
+    vendor.qti.hardware.data.iwlan@1.0 \
+    vendor.qti.hardware.data.iwlan@1.1 \
+    vendor.qti.hardware.data.ka-V1-ndk_platform \
+    vendor.qti.hardware.data.latency@1.0 \
+    vendor.qti.hardware.data.lce@1.0 \
+    vendor.qti.hardware.data.qmi@1.0 \
+    vendor.qti.hardware.dpmservice@1.0 \
+    vendor.qti.hardware.dpmservice@1.1 \
+    vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.embmssl@1.0 \
     vendor.qti.hardware.embmssl@1.1 \
     vendor.qti.hardware.fm@1.0 \
+    vendor.qti.hardware.iop@1.0 \
+    vendor.qti.hardware.iop@2.0 \
     vendor.qti.hardware.limits@1.0 \
     vendor.qti.hardware.limits@1.1 \
+    vendor.qti.hardware.mwqemadapter@1.0 \
+    vendor.qti.hardware.power.powermodule@1.0 \
+    vendor.qti.hardware.qccsyshal@1.0 \
+    vendor.qti.hardware.qccsyshal@1.1 \
+    vendor.qti.hardware.qccvndhal@1.0-halimpl \
+    vendor.qti.hardware.qccvndhal@1.0 \
+    vendor.qti.hardware.qseecom@1.0 \
+    vendor.qti.hardware.qteeconnector@1.0 \
+    vendor.qti.hardware.radio.am@1.0 \
+    vendor.qti.hardware.radio.atcmdfwd@1.0 \
+    vendor.qti.hardware.radio.ims-V7-ndk_platform \
+    vendor.qti.hardware.radio.ims@1.0 \
+    vendor.qti.hardware.radio.ims@1.1 \
+    vendor.qti.hardware.radio.ims@1.2 \
+    vendor.qti.hardware.radio.ims@1.3 \
+    vendor.qti.hardware.radio.ims@1.4 \
+    vendor.qti.hardware.radio.ims@1.5 \
+    vendor.qti.hardware.radio.ims@1.6 \
+    vendor.qti.hardware.radio.ims@1.7 \
+    vendor.qti.hardware.radio.ims@1.8 \
+    vendor.qti.hardware.radio.internal.deviceinfo@1.0 \
+    vendor.qti.hardware.radio.lpa@1.0 \
+    vendor.qti.hardware.radio.lpa@1.1 \
+    vendor.qti.hardware.radio.lpa@1.2 \
+    vendor.qti.hardware.radio.qcrilhook@1.0 \
+    vendor.qti.hardware.radio.qtiradio-V5-ndk_platform \
+    vendor.qti.hardware.radio.qtiradio@1.0 \
+    vendor.qti.hardware.radio.qtiradio@2.0 \
+    vendor.qti.hardware.radio.qtiradio@2.1 \
+    vendor.qti.hardware.radio.qtiradio@2.2 \
+    vendor.qti.hardware.radio.qtiradio@2.3 \
+    vendor.qti.hardware.radio.qtiradio@2.4 \
+    vendor.qti.hardware.radio.qtiradio@2.5 \
+    vendor.qti.hardware.radio.qtiradio@2.6 \
+    vendor.qti.hardware.radio.uim@1.0 \
+    vendor.qti.hardware.radio.uim@1.1 \
+    vendor.qti.hardware.radio.uim@1.2 \
+    vendor.qti.hardware.radio.uim_remote_client@1.0 \
+    vendor.qti.hardware.radio.uim_remote_client@1.1 \
+    vendor.qti.hardware.radio.uim_remote_client@1.2 \
+    vendor.qti.hardware.radio.uim_remote_server@1.0 \
     vendor.qti.hardware.sigma_miracast@1.0 \
+    vendor.qti.hardware.slmadapter@1.0 \
+    vendor.qti.hardware.soter@1.0 \
+    vendor.qti.hardware.trustedui@1.0 \
+    vendor.qti.hardware.trustedui@1.1 \
+    vendor.qti.hardware.trustedui@1.2 \
+    vendor.qti.hardware.tui_comm@1.0 \
+    vendor.qti.hardware.vpp@1.1 \
+    vendor.qti.hardware.vpp@1.2 \
+    vendor.qti.hardware.vpp@1.3 \
+    vendor.qti.hardware.vpp@2.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
+    vendor.qti.ims.callcapability@1.0 \
+    vendor.qti.ims.callinfo@1.0 \
+    vendor.qti.ims.configservice@1.0 \
+    vendor.qti.ims.configservice@1.1 \
+    vendor.qti.ims.connection@1.0 \
+    vendor.qti.ims.factory@1.0 \
+    vendor.qti.ims.factory@1.1 \
+    vendor.qti.ims.factory@2.0 \
+    vendor.qti.ims.factory@2.1 \
+    vendor.qti.ims.factory@2.2 \
+    vendor.qti.ims.rcsconfig@1.0 \
+    vendor.qti.ims.rcsconfig@1.1 \
+    vendor.qti.ims.rcsconfig@2.0 \
+    vendor.qti.ims.rcsconfig@2.1 \
+    vendor.qti.ims.rcssip@1.0 \
+    vendor.qti.ims.rcssip@1.1 \
+    vendor.qti.ims.rcssip@1.2 \
+    vendor.qti.ims.rcsuce@1.0 \
+    vendor.qti.ims.rcsuce@1.1 \
+    vendor.qti.ims.rcsuce@1.2 \
+    vendor.qti.imsrtpservice@3.0-service-Impl \
+    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.latency@2.0 \
+    vendor.qti.latency@2.1 \
+    vendor.qti.memory.pasrmanager@1.0 \
+    vendor.qti.memory.pasrmanager@1.1 \
+    vendor.qti.power.pasrmanager@1.0 \
     vendor.qti.qesdhal@1.0 \
     vendor.qti.qesdhal@1.1-impl \
     vendor.qti.qesdhal@1.1 \
+    vendor.qti.qesdsys-V1-ndk_platform \
+    vendor.qti.qspmhal@1.0-impl \
     vendor.xiaomi.hardware.bgservice@1.0-impl \
     vendor.xiaomi.hardware.bgservice@1.0 \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
+    vendor.xiaomi.hardware.mfidoca@1.0 \
+    vendor.xiaomi.hardware.quickcamera@1.0 \
+    vendor.xiaomi.hardware.tidaservice@1.0 \
+    vendor.xiaomi.hardware.tidaservice@1.1 \
+    vendor.xiaomi.hardware.tidaservice@1.2 \
     bm2n31 \
     bm2n32 \
     bm2n33 \
@@ -1996,10 +1960,6 @@ PRODUCT_PACKAGES += \
     libmmparser_lite \
     libmmrtpdecoder \
     libmmrtpencoder \
-    libqcc \
-    libqcc_file_agent_sys \
-    libqccdme \
-    libqccfileservice \
     libwfdavenhancements \
     libwfdcommonutils \
     libwfdconfigutils \
@@ -2015,14 +1975,7 @@ PRODUCT_PACKAGES += \
     libwfduibcsinkinterface \
     libwfduibcsrc \
     libwfduibcsrcinterface \
-    vendor.qti.diaghal@1.0 \
-    vendor.qti.hardware.qccsyshal@1.0 \
-    vendor.qti.hardware.qccsyshal@1.1 \
-    vendor.qti.hardware.qccsyshal@1.2-halimpl \
-    vendor.qti.hardware.qccsyshal@1.2 \
-    vendor.qti.hardware.qccvndhal@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
-    vendor.qti.qccvndhal_aidl-V1-ndk \
     lib-imsvideocodec \
     lib-imsvt \
     lib-imsvtextutils \
@@ -2030,11 +1983,22 @@ PRODUCT_PACKAGES += \
     libdiag_system \
     libimscamera_jni \
     libimsmedia_jni \
+    libqcc \
+    libqcc_file_agent_sys \
+    libqccdme \
+    libqccfileservice \
     libwfdclient \
     libwfdnative \
     vendor.qti.ImsRtpService-V1-ndk \
+    vendor.qti.diaghal@1.0 \
+    vendor.qti.hardware.qccsyshal@1.0 \
+    vendor.qti.hardware.qccsyshal@1.1 \
+    vendor.qti.hardware.qccsyshal@1.2-halimpl \
+    vendor.qti.hardware.qccsyshal@1.2 \
+    vendor.qti.hardware.qccvndhal@1.0 \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
+    vendor.qti.qccvndhal_aidl-V1-ndk \
     fingerprint.fpc_fod.default \
     fingerprint.goodix_fod.default \
     libgf_hal \
