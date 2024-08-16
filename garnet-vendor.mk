@@ -1402,7 +1402,7 @@ PRODUCT_PACKAGES += \
     libgnss \
     libgnsspps \
     libgps.utils \
-    libgrpc++_unsecure \
+    libgrpc++_unsecure_prebuilt \
     libhdr10plus \
     libhdr_backlight_adapter \
     libhdr_tm \

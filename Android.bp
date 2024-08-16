@@ -16584,7 +16584,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libgrpc++_unsecure",
+    name: "libgrpc++_unsecure_prebuilt",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16592,7 +16592,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libgrpc++_unsecure.so",
+                "proprietary/vendor/lib64/libgrpc++_unsecure_prebuilt.so",
             ],
             shared_libs: [
                 "liblog",
@@ -37894,7 +37894,7 @@ cc_prebuilt_binary {
                 "liblog",
                 "libutils",
                 "libprotobuf-cpp-full-3.9.1-vendorcompat",
-                "libgrpc++_unsecure",
+                "libgrpc++_unsecure_prebuilt",
                 "libqcc_file_agent",
                 "libqmi_cci",
                 "libqmiservices",
