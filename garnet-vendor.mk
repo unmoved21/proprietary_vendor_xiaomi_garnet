@@ -551,8 +551,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.qti.memory.pasrmanager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.memory.pasrmanager@1.0-service.rc \
@@ -1272,13 +1270,7 @@ PRODUCT_PACKAGES += \
     libSnpeHtpV68Stub \
     libSnpeHtpV69Stub \
     libSnpeHtpV73Stub \
-    libTouchInputVM \
     libTrueSight \
-    libTrustedInput \
-    libTrustedInputTZ \
-    libTrustedUI \
-    libTrustedUITZ \
-    libTrustedUIVM \
     libXMFaceFocus \
     lib_bt_aptx \
     lib_bt_ble \
@@ -1637,7 +1629,6 @@ PRODUCT_PACKAGES += \
     libsfeShiftExtrapolation \
     libshsc \
     libshsusr_verinfo \
-    libsi \
     libsilkyscrolls \
     libskewknob \
     libslimclient \
@@ -1846,10 +1837,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.sigma_miracast@1.0 \
     vendor.qti.hardware.slmadapter@1.0 \
     vendor.qti.hardware.soter@1.0 \
-    vendor.qti.hardware.trustedui@1.0 \
-    vendor.qti.hardware.trustedui@1.1 \
-    vendor.qti.hardware.trustedui@1.2 \
-    vendor.qti.hardware.tui_comm@1.0 \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
@@ -2102,8 +2089,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qteeconnector@1.0-service \
     vendor.qti.hardware.servicetracker@1.2-service \
     vendor.qti.hardware.soter@1.0-service \
-    vendor.qti.hardware.trustedui@1.0-service-qti \
-    vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor.qti.media.c2@1.0-service \
     vendor.qti.media.c2audio@1.0-service \
     vendor.qti.memory.pasrmanager@1.0-service \
