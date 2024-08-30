@@ -1195,7 +1195,6 @@ PRODUCT_PACKAGES += \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
     gyro_fusion_interface \
-    sound_trigger.primary.parrot \
     vendor.qti.esepowermanager@1.1-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
