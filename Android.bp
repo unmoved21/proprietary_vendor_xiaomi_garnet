@@ -9594,7 +9594,7 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.libdpmframework.so"],
-			shared_libs: ["libdiag", "libbinder", "libcutils", "libutils", "liblog", "libhidlbase", "libhardware", "libhardware_legacy", "com.qualcomm.qti.dpm.api@1.0", "vendor.qti.hardware.dpmservice@1.0", "vendor.qti.hardware.dpmservice@1.1", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libhidlbase_shim", "libdiag", "libbinder", "libcutils", "libutils", "liblog", "libhidlbase", "libhardware", "libhardware_legacy", "com.qualcomm.qti.dpm.api@1.0", "vendor.qti.hardware.dpmservice@1.0", "vendor.qti.hardware.dpmservice@1.1", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
