@@ -2051,6 +2051,7 @@ PRODUCT_PACKAGES += \
     EuiccGoogle \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
+    AtFwd2 \
     ImsRcsService \
     PowerOffAlarm \
     QCC \
