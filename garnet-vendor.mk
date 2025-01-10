@@ -1604,6 +1604,7 @@ PRODUCT_PACKAGES += \
     libqseed3 \
     libqshcamera \
     libqsocket \
+    libqspm-mem-utils-vendor \
     libqti-iopd-client \
     libqti-iopd \
     libqti-perfd-client \
@@ -1894,6 +1895,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.qesdhal@1.1-impl \
     vendor.qti.qesdhal@1.1 \
     vendor.qti.qesdsys-V1-ndk_platform \
+    vendor.qti.qspmhal-V1-ndk \
     vendor.qti.qspmhal@1.0-impl \
     vendor.xiaomi.hardware.bgservice@1.0-impl \
     vendor.xiaomi.hardware.bgservice@1.0 \
