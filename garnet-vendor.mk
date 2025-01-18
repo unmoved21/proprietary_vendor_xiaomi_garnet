@@ -2181,3 +2181,6 @@ PRODUCT_PACKAGES += \
     qccsyshal@1.2-service \
     wfdservice \
     wfdservice64
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
