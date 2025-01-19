@@ -12052,6 +12052,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libQnnDspV65CalculatorStub.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcdsprpc",
                 "libm",
                 "libdl",
@@ -14779,7 +14780,7 @@ cc_prebuilt_library_shared {
                 "libprocessgroup",
                 "libbinder_ndk",
                 "libdisplayconfig.qti",
-                "vendor.qti.hardware.display.config-V2-ndk_platform",
+                "vendor.qti.hardware.display.config-V2-ndk",
                 "libz",
                 "libc",
                 "libm",
