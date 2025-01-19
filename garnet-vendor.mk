@@ -948,7 +948,13 @@ PRODUCT_PACKAGES += \
     libadreno_app_profiles \
     libadreno_utils \
     libagm \
+    libar-acdb \
+    libar-gpr \
+    libar-gsl \
     libar-pal \
+    libats \
+    libaudio_log_utils \
+    libaudioroute_ext \
     libdiag \
     libgpudataproducer \
     libgsl \
@@ -957,11 +963,15 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
+    liblx-ar_util \
+    liblx-osal \
+    libmisight \
     libpdmapper \
     libpdnotifier \
     libqmi_cci \
     libqmi_common_so \
     libqmi_encdec \
+    libxlog \
     vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.qspmhal@1.0 \
     android.hardware.secure_element@1.0-impl \
@@ -1224,6 +1234,7 @@ PRODUCT_PACKAGES += \
     libHISCppAlgos \
     libMiMotion \
     libMiVDR \
+    libMiVideoFilter \
     libOpenCL_adreno \
     libPlatformValidatorShared \
     libQTEEConnector_listener \
@@ -1291,9 +1302,6 @@ PRODUCT_PACKAGES += \
     libancbase \
     libapengine \
     libappclassifier \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
     libarcsoft_beautyshot \
     libarcsoft_dualcam_refocus_image \
     libarcsoft_dualcam_refocus_video \
@@ -1306,10 +1314,7 @@ PRODUCT_PACKAGES += \
     libasn1cper \
     libasn1crt \
     libasn1crtx \
-    libats \
-    libaudio_log_utils \
     libaudiocloudctrl \
-    libaudioroute_ext \
     libawcal \
     libbacklight-calib \
     libbase64 \
@@ -1372,6 +1377,7 @@ PRODUCT_PACKAGES += \
     libdisp-aba \
     libdisplayqos \
     libdisplayskuutils \
+    libdlrmsc \
     libdpmqmihal \
     libdpps \
     libdrmfs \
@@ -1441,8 +1447,6 @@ PRODUCT_PACKAGES += \
     liblowi_common \
     liblowi_wifihal \
     liblqe \
-    liblx-ar_util \
-    liblx-osal \
     libmasc \
     libmcs \
     libmctfengine_stub \
@@ -1483,7 +1487,6 @@ PRODUCT_PACKAGES += \
     libmis_plugin_his \
     libmis_plugin_morpho \
     libmis_plugin_vidhance \
-    libmisight \
     libmispowerop \
     libmlipay \
     libmlipay@1.1 \
@@ -1717,7 +1720,6 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libwvkeybox \
     libxiaomi_qcril \
-    libxlog \
     libxmi_hdr_checker \
     libxmi_high_dynamic_range \
     libxmi_slow_motion_mein \
@@ -1960,6 +1962,7 @@ PRODUCT_PACKAGES += \
     libmmparser_lite \
     libmmrtpdecoder \
     libmmrtpencoder \
+    libqspm-mem-utils \
     libwfdavenhancements \
     libwfdcommonutils \
     libwfdconfigutils \
@@ -1976,6 +1979,8 @@ PRODUCT_PACKAGES += \
     libwfduibcsrc \
     libwfduibcsrcinterface \
     vendor.qti.hardware.wifidisplaysession@1.0 \
+    vendor.qti.qspmhal-V1-ndk \
+    com.qualcomm.qti.dpm.api@1.0 \
     lib-imsvideocodec \
     lib-imsvt \
     lib-imsvtextutils \
