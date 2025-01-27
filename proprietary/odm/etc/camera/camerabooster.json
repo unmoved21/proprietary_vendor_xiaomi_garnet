@@ -2,7 +2,7 @@
     "version": "1.0",
     "product": "garnet",
     "support": {
-            "inhibit_3rdprocs_enable": true,
+            "3rdcam_inhibit_enable": true,
             "oom_update_support": true,
             "cam_boost_early_enable": true,
             "cam_boost_early_boost_perf": true,
@@ -10,11 +10,10 @@
             "lmkd_perceptible_support": true,
             "dynamic_task_proctect_support": true,
             "thread_inhibit_support": true,
-            "inhibit_dynamic_enable": false,
+            "inhibit_dynamic_enable": true,
             "inhibit_tokill_cgroup_support": true,
             "inhibit_sysapp_cgroup_support": true,
             "hprof_dump_enable":false,
-            "skip_camera_boost": true,
             "light_white_support": true
         },
     "oom": {
@@ -34,7 +33,10 @@
             "kill_tag": 31,
             "3rd_skip_task_lower": 2,
             "3rd_kill_tag": 31,
-            "update_state_delay_ms": 5000
+            "update_state_delay_ms": 5000,
+            "dynamic_interval": 5000,
+            "free_memory_threshold": 524288,
+            "restart_kill_duration": 1000
         },
     "kill_configs": [
         {
@@ -89,6 +91,12 @@
         "com.android.systemui": 563200,
         "com.miui.miwallpaper": 307200
     },
+    "cpus_configs": {
+        "limit-level0": "0-1",
+        "limit-level1": "0-2",
+        "limit-level2": "0-3",
+        "limit-level3": "0-3"
+    },
     "configs": [
         {
             "name": "protect_list",
@@ -113,7 +121,6 @@
             "name": "perceptible_list",
             "config": [
                 "com.tencent.mm",
-                "com.miui.gallery",
                 "com.miui.personalassistant",
                 "com.xiaomi.bluetooth",
                 "com.miui.securitycenter:ui",
@@ -152,7 +159,8 @@
                 "com.miui.aod",
                 "com.android.incallui",
                 "com.miui.voiceassist:core",
-                "com.mi.health:device"
+                "com.mi.health:device",
+                "com.miui.gallery"
             ]
         },
         {
@@ -190,21 +198,28 @@
             ]
         },
         {
-            "name": "inhibit_3rdscene_list",
-            "config": [
-                "com.tencent.mm/.plugin.scanner.ui.BaseScanUI",
-                "com.eg.android.AlipayGphone/com.alipay.mobile.scan.as.main.MainCaptureActivity",
-                "com.duowan.kiwi/com.duowan.liveroom.LiveRoomActivity",
-                "air.tv.douyu.android/com.dy.live.activity.RecorderCameraLandActivity",
-                "air.tv.douyu.android/com.dy.live.activity.RecorderCameraPortraitActivity",
-                "com.duowan.mobile/com.yy.mobile.plugin.pluginmobilelive.MobileLiveActivity"
-            ]
-        },
-        {
             "name": "dynamic_protect_list",
             "config": [
                     "com.tencent.mm",
                     "com.tencent.mobileqq"
+            ]
+        },
+       {
+            "name": "intercept_restart_list",
+            "config": [
+                "com.google.android.youtube",
+                "com.google.android.googlequicksearchbox:search",
+                "com.android.settings:remote",
+                "com.android.vending",
+                "com.miui.analytics",
+                "com.miui.mediaeditor",
+                "com.google.android.apps.photos",
+                "com.miui.cloudservice:galleryproxy",
+                "com.xiaomi.mipicks",
+                "com.facebook.katana",
+                "com.facebook.orca",
+                "com.ss.android.ugc.trill",
+                "com.telkomsel.telkomselcm"
             ]
         }
     ],

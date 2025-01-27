@@ -1,23 +1,14 @@
 #N16 setting file
 multiCameraLogicalXMLFile=garnet.xml
 
-# close camera hal log
-logInfoMask=0
-logWarningMask=0
-logConfigMask=0
-logVerboseMask=0
-logCoreCfgMask=0
-overrideLogLevels=0x1
-logRequestMapping=FALSE
-systemLogEnable=TRUE
-enableAsciiLogging=0
-enableTxtLogging=0
+#Camera log
+logInfoMask=0x1000000000010098
+logConfigMask=0x80
+overrideLogLevels=0x1F
+enableTxtLogging=1
 offlineLogNumber=14
-raiserecoverysigabrt=FALSE
+raiserecoverysigabrt=TRUE
 offlineLoggerEnableBackupLog=FALSE
-enableCameraCoreDumpBinary=FALSE
-enableCameraCoreDumpText=FALSE
-numConsecutiveRecovery=10
 
 #CAMX and CHI trace
 traceGroupsEnable=0
@@ -193,7 +184,16 @@ isEarlysettingsEnable=0x1
 isActuatorEarlyInitEnable=TRUE
 enableOISOptimization=TRUE
 
+#cam sync
+multiCameraSWFrameSyncInterval=5
+multiCameraHWSyncMask=0
+multiCameraFPSMatchMask=0x1
+multiCameraFrameSyncMask=0x1
+multiCameraExposureTimeMatch=TRUE
+enableExposureTimeMatch=TRUE
+#multiCameraDetectFrameSync=TRUE
+multiCameraSWFrameSyncType=SOFSync
+
 # For CTS Reprocess Size
 minReprocessInputWidth=0x1FFF
 minReprocessInputHeight=0x1FFF
-

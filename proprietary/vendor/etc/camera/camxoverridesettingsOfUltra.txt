@@ -1,23 +1,14 @@
 #N16 setting file
 multiCameraLogicalXMLFile=garnet.xml
 
-# close camera hal log
-logInfoMask=0
-logWarningMask=0
-logConfigMask=0
-logVerboseMask=0
-logCoreCfgMask=0
-overrideLogLevels=0x1
-logRequestMapping=FALSE
-systemLogEnable=TRUE
-enableAsciiLogging=0
-enableTxtLogging=0
+#Camera log
+logInfoMask=0x10098
+logConfigMask=0x80
+overrideLogLevels=0x1F
+enableTxtLogging=1
 offlineLogNumber=14
-raiserecoverysigabrt=FALSE
+raiserecoverysigabrt=TRUE
 offlineLoggerEnableBackupLog=FALSE
-enableCameraCoreDumpBinary=FALSE
-enableCameraCoreDumpText=FALSE
-numConsecutiveRecovery=10
 
 #CAMX and CHI trace
 traceGroupsEnable=0
@@ -193,4 +184,3 @@ minReprocessInputWidth=0x1FFF
 minReprocessInputHeight=0x1FFF
 
 halBufferCacheMax=8
-

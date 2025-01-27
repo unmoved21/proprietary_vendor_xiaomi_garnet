@@ -880,6 +880,8 @@
          <!-- MPCTLV3_SCHEDUTIL_PREDICTIVE_LOAD_CLUSTER_LITTLE  (0x41444100),0  -->
          <!-- MPCTLV3_SCHEDUTIL_PREDICTIVE_LOAD_CLUSTER_BIG     (0x41444000),0  -->
          <!-- MPCTLV3_LLCC_DDR_BW_IO_PERCENT                    (0x43020000),100 -->
+         <!--MPCTLV3_XIAOMI_KSWAPD_AFFINITY, 0x3F -->
+         <!-- MPCTLV3_CPUCTL_CAMERA_CPUSHARE,          2048 -->
          <Config
             Id="0x00001355" Type="0" Enable="true" Timeout="0" Target="parrot"
              Resources="
@@ -894,7 +896,9 @@
             0x41000100, 4,
             0x41444100,0x0,
             0x41444000,0x0,
-            0x43020000, 100
+            0x43020000, 100,
+            0x5FC00000, 0x3F,
+            0x43C10000, 2048
             "/>
 
          <!-- camera UHD 60FPS RECORDING tunings-->
