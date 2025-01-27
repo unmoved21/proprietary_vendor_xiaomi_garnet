@@ -1187,7 +1187,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-aidl-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
     audio.bluetooth_qti.default \
-    audio.primary.parrot \
     camera.qcom \
     camera.xiaomi \
     com.dsi.ant@1.0-impl \
@@ -1419,7 +1418,6 @@ PRODUCT_PACKAGES += \
     libizat_core \
     libjnihelper \
     libjpege \
-    libkaraokepal \
     libkeymasterdeviceutils \
     libkeymasterprovision \
     libkeymasterutils \
