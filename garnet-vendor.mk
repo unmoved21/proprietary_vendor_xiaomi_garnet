@@ -1981,7 +1981,6 @@ PRODUCT_PACKAGES += \
     fingerprint.fpc_fod.default \
     fingerprint.goodix_fod.default \
     libgf_hal \
-    vendor.xiaomi.hardware.fx.tunnel@1.0 \
     librfs_warp \
     CACertService \
     CneApp \
