@@ -941,12 +941,6 @@ PRODUCT_PACKAGES += \
     libQSEEComAPI \
     libadreno_app_profiles \
     libadreno_utils \
-    libagm \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
-    libar-pal \
-    libats \
     libaudio_log_utils \
     libaudioroute_ext \
     libdiag \
@@ -957,8 +951,6 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
-    liblx-ar_util \
-    liblx-osal \
     libmisight \
     libpdmapper \
     libpdnotifier \
@@ -966,7 +958,6 @@ PRODUCT_PACKAGES += \
     libqmi_common_so \
     libqmi_encdec \
     libxlog \
-    vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.qspmhal@1.0 \
     android.hardware.secure_element@1.0-impl \
     btaudio_offload_if \
@@ -1181,7 +1172,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-aidl-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
     audio.bluetooth_qti.default \
-    audio.primary.parrot \
     camera.qcom \
     camera.xiaomi \
     com.dsi.ant@1.0-impl \
@@ -1271,9 +1261,6 @@ PRODUCT_PACKAGES += \
     libSnpeHtpV73Stub \
     libTrueSight \
     libXMFaceFocus \
-    lib_bt_aptx \
-    lib_bt_ble \
-    lib_bt_bundle \
     lib_misound_asc \
     libadaptlaunch \
     libadm \
@@ -1404,7 +1391,6 @@ PRODUCT_PACKAGES += \
     libizat_core \
     libjnihelper \
     libjpege \
-    libkaraokepal \
     libkeymasterdeviceutils \
     libkeymasterprovision \
     libkeymasterutils \
