@@ -945,13 +945,7 @@ PRODUCT_PACKAGES += \
     libQSEEComAPI \
     libadreno_app_profiles \
     libadreno_utils \
-    libagm \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
-    libats \
     libaudio_log_utils \
-    libaudioroute_ext \
     libdiag \
     libgpudataproducer \
     libgsl \
@@ -960,16 +954,11 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
-    liblx-ar_util \
-    liblx-osal \
-    libmisight \
     libpdmapper \
     libpdnotifier \
     libqmi_cci \
     libqmi_common_so \
     libqmi_encdec \
-    libxlog \
-    vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.qspmhal@1.0 \
     android.hardware.secure_element@1.0-impl \
     btaudio_offload_if \
@@ -1184,12 +1173,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-aidl-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
     audio.bluetooth_qti.default \
-    audio.primary.parrot \
     camera.qcom \
     camera.xiaomi \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
-    gyro_fusion_interface \
     vendor.qti.esepowermanager@1.1-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
@@ -1273,9 +1260,6 @@ PRODUCT_PACKAGES += \
     libSnpeHtpV73Stub \
     libTrueSight \
     libXMFaceFocus \
-    lib_bt_aptx \
-    lib_bt_ble \
-    lib_bt_bundle \
     lib_misound_asc \
     libadaptlaunch \
     libadm \
@@ -1291,7 +1275,6 @@ PRODUCT_PACKAGES += \
     libancbase \
     libapengine \
     libappclassifier \
-    libar-pal \
     libarcsoft_beautyshot \
     libarcsoft_dualcam_refocus_image \
     libarcsoft_dualcam_refocus_video \
@@ -1304,8 +1287,6 @@ PRODUCT_PACKAGES += \
     libasn1cper \
     libasn1crt \
     libasn1crtx \
-    libaudiocloudctrl \
-    libawcal \
     libbacklight-calib \
     libbase64 \
     libbatching \
@@ -1381,7 +1362,6 @@ PRODUCT_PACKAGES += \
     libfastcrc \
     libfastcvdsp_stub \
     libfastcvopt \
-    libfsalgocal \
     libgame_enhance \
     libgarden \
     libgarden_haltests_e2e \
@@ -1407,7 +1387,6 @@ PRODUCT_PACKAGES += \
     libizat_core \
     libjnihelper \
     libjpege \
-    libkaraokepal \
     libkeymasterdeviceutils \
     libkeymasterprovision \
     libkeymasterutils \
@@ -1474,6 +1453,7 @@ PRODUCT_PACKAGES += \
     libmis_plugin_his \
     libmis_plugin_morpho \
     libmis_plugin_vidhance \
+    libmisight \
     libmlipay \
     libmlipay@1.1 \
     libmm-hdcpmgr \
@@ -1608,7 +1588,6 @@ PRODUCT_PACKAGES += \
     librelight_only \
     libremosaic_wrapper \
     libremosaiclib \
-    libresampler \
     libril-db \
     libril-legacy \
     libril-qc-ltedirectdisc \
