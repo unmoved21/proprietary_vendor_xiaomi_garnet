@@ -28,16 +28,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
     vendor/xiaomi/garnet/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/1-SN1X0_SPC.txt:$(TARGET_COPY_OUT_VENDOR)/etc/1-SN1X0_SPC.txt \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/Mise/Mise_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Mise/Mise_acdb_cal.acdb \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/Mise/Mise_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Mise/Mise_workspaceFileXml.qwsp \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/Mise/foursemi/Mise_acdb_cal_fs.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Mise/foursemi/Mise_acdb_cal_fs.acdb \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/Mise/foursemi/Mise_workspaceFileXml_fs.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Mise/foursemi/Mise_workspaceFileXml_fs.qwsp \
     vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd \
     vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd \
     vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
+    vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/parrot_qrd/Mise_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/parrot_qrd/Mise_acdb_cal.acdb \
+    vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/parrot_qrd/Mise_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/parrot_qrd/Mise_workspaceFileXml.qwsp \
+    vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/parrot_qrd/foursemi/Mise_acdb_cal_fs.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/parrot_qrd/foursemi/Mise_acdb_cal_fs.acdb \
+    vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/parrot_qrd/foursemi/Mise_workspaceFileXml_fs.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/parrot_qrd/foursemi/Mise_workspaceFileXml_fs.qwsp \
     vendor/xiaomi/garnet/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/xiaomi/garnet/proprietary/vendor/etc/audio_cloud_control_white_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_cloud_control_white_list.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/audio_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio_diag.cfg \
