@@ -55,12 +55,12 @@
             <Limit name="sample-rate" ranges="8000-22579200" />
             <Limit name="concurrent-instances" max="2" />
         </MediaCodec>
-        <MediaCodec name="c2.qti.aac.hw.decoder" type="audio/mp4a-latm">
+        <!-- <MediaCodec name="c2.qti.aac.hw.decoder" type="audio/mp4a-latm">
             <Limit name="channel-count" max="6" />
             <Limit name="sample-rate" ranges="8000-96000" />
             <Limit name="bitrate" range="8000-1536000" />
             <Limit name="concurrent-instances" max="2" />
-        </MediaCodec>
+        </MediaCodec> -->
         <MediaCodec name="c2.qti.alac.hw.decoder" type="audio/alac" rank="1">
             <Limit name="channel-count" max="8" />
             <Limit name="sample-rate" ranges="8000-192000" />
