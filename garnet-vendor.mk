@@ -1167,7 +1167,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.mcx.linearmapper \
     com.qualcomm.mcx.policy.mfl \
     com.qualcomm.mcx.policy.xr \
-    com.qualcomm.qti.bluetooth_audio@1.0 \
+    com.qualcomm.qti.bluetooth_audio@1.0_vendor \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@1.0 \
     com.qualcomm.qti.imscmservice@2.0 \

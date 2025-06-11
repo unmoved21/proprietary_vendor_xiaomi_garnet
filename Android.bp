@@ -9663,7 +9663,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.bluetooth_audio@1.0",
+    name: "com.qualcomm.qti.bluetooth_audio@1.0_vendor",
+    stem: "com.qualcomm.qti.bluetooth_audio@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
