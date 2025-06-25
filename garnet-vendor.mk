@@ -945,13 +945,6 @@ PRODUCT_PACKAGES += \
     libQSEEComAPI \
     libadreno_app_profiles \
     libadreno_utils \
-    libagm \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
-    libats \
-    libaudio_log_utils \
-    libaudioroute_ext \
     libdiag \
     libgpudataproducer \
     libgsl \
@@ -960,16 +953,11 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
-    liblx-ar_util \
-    liblx-osal \
-    libmisight \
     libpdmapper \
     libpdnotifier \
     libqmi_cci \
     libqmi_common_so \
     libqmi_encdec \
-    libxlog \
-    vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.qspmhal@1.0 \
     android.hardware.secure_element@1.0-impl \
     btaudio_offload_if \
@@ -1281,6 +1269,7 @@ PRODUCT_PACKAGES += \
     libadm \
     libadsp_default_listener \
     libadsprpc \
+    libagm \
     libaidenoiser \
     libalCFR \
     libalLDC \
@@ -1291,6 +1280,9 @@ PRODUCT_PACKAGES += \
     libancbase \
     libapengine \
     libappclassifier \
+    libar-acdb \
+    libar-gpr \
+    libar-gsl \
     libar-pal \
     libarcsoft_beautyshot \
     libarcsoft_dualcam_refocus_image \
@@ -1304,7 +1296,10 @@ PRODUCT_PACKAGES += \
     libasn1cper \
     libasn1crt \
     libasn1crtx \
+    libats \
+    libaudio_log_utils \
     libaudiocloudctrl \
+    libaudioroute_ext \
     libawcal \
     libbacklight-calib \
     libbase64 \
@@ -1434,6 +1429,8 @@ PRODUCT_PACKAGES += \
     liblowi_common \
     liblowi_wifihal \
     liblqe \
+    liblx-ar_util \
+    liblx-osal \
     libmasc \
     libmcs \
     libmctfengine_stub \
@@ -1474,6 +1471,7 @@ PRODUCT_PACKAGES += \
     libmis_plugin_his \
     libmis_plugin_morpho \
     libmis_plugin_vidhance \
+    libmisight \
     libmlipay \
     libmlipay@1.1 \
     libmm-hdcpmgr \
@@ -1705,6 +1703,7 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libwvkeybox \
     libxiaomi_qcril \
+    libxlog \
     libxmi_hdr_checker \
     libxmi_high_dynamic_range \
     libxmi_slow_motion_mein \
@@ -1761,6 +1760,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.esepowermanager@1.1 \
     vendor.qti.gnss-V3-ndk_platform \
     vendor.qti.gnss-service \
+    vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
