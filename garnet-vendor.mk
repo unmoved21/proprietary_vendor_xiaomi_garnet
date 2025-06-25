@@ -1210,6 +1210,7 @@ PRODUCT_PACKAGES += \
     libHISCppAlgos \
     libMiMotion \
     libMiVDR \
+    libMiVideoFilter \
     libPlatformValidatorShared \
     libQSEEComAPI \
     libQTEEConnector_listener \
@@ -1356,6 +1357,7 @@ PRODUCT_PACKAGES += \
     libdisp-aba \
     libdisplayqos \
     libdisplayskuutils \
+    libdlrmsc \
     libdpmqmihal \
     libdpps \
     libdrmfs \
