@@ -33667,28 +33667,6 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
-            srcs: [
-                "proprietary/odm/lib/hw/fingerprint.fpc_fod.default.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libpng",
-                "libhidlbase",
-                "libhidltransport",
-                "libutils",
-                "libcutils",
-                "libhwbinder",
-                "vendor.xiaomi.hardware.fx.tunnel@1.0",
-                "libion",
-                "libQSEEComAPI",
-                "libdmabufheap",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
         android_arm64: {
             srcs: [
                 "proprietary/odm/lib64/hw/fingerprint.fpc_fod.default.so",
@@ -33712,7 +33690,7 @@ cc_prebuilt_library_shared {
             ],
         },
     },
-    compile_multilib: "both",
+    compile_multilib: "64",
     relative_install_path: "hw",
     prefer: true,
     device_specific: true,
@@ -33725,25 +33703,6 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
-            srcs: [
-                "proprietary/odm/lib/hw/fingerprint.goodix_fod.default.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libhwbinder",
-                "libhidltransport",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libion",
-                "libgf_hal",
-                "libc",
-                "libm",
-                "libdl",
-                "libc++",
-            ],
-        },
         android_arm64: {
             srcs: [
                 "proprietary/odm/lib64/hw/fingerprint.goodix_fod.default.so",
@@ -33764,7 +33723,7 @@ cc_prebuilt_library_shared {
             ],
         },
     },
-    compile_multilib: "both",
+    compile_multilib: "64",
     relative_install_path: "hw",
     prefer: true,
     device_specific: true,
@@ -33777,27 +33736,6 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
-            srcs: [
-                "proprietary/odm/lib/libgf_hal.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libhwbinder",
-                "libhidltransport",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libion",
-                "libdmabufheap",
-                "libQSEEComAPI",
-                "vendor.xiaomi.hardware.fx.tunnel@1.0",
-                "libc",
-                "libm",
-                "libdl",
-                "libc++",
-            ],
-        },
         android_arm64: {
             srcs: [
                 "proprietary/odm/lib64/libgf_hal.so",
@@ -33820,7 +33758,7 @@ cc_prebuilt_library_shared {
             ],
         },
     },
-    compile_multilib: "both",
+    compile_multilib: "64",
     prefer: true,
     device_specific: true,
 }
