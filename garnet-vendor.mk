@@ -942,7 +942,6 @@ PRODUCT_PACKAGES += \
     libC2D2 \
     libCB \
     libOpenCL \
-    libQSEEComAPI \
     libadreno_app_profiles \
     libadreno_utils \
     libdiag \
@@ -1220,6 +1219,7 @@ PRODUCT_PACKAGES += \
     libMiVDR \
     libMiVideoFilter \
     libPlatformValidatorShared \
+    libQSEEComAPI \
     libQTEEConnector_listener \
     libQTEEConnector_vendor \
     libQcelp13SwCodec \
