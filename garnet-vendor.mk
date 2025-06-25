@@ -942,7 +942,6 @@ PRODUCT_PACKAGES += \
     libOpenCL \
     libadreno_app_profiles \
     libadreno_utils \
-    libdiag \
     libgpudataproducer \
     libgsl \
     libkcl \
@@ -952,9 +951,6 @@ PRODUCT_PACKAGES += \
     libllvm-qgl \
     libpdmapper \
     libpdnotifier \
-    libqmi_cci \
-    libqmi_common_so \
-    libqmi_encdec \
     vendor.qti.qspmhal@1.0 \
     android.hardware.secure_element@1.0-impl \
     btaudio_offload_if \
@@ -1358,6 +1354,7 @@ PRODUCT_PACKAGES += \
     libcvp2_1 \
     libdataitems \
     libdeflicker \
+    libdiag \
     libdigital-dimming \
     libdisp-aba \
     libdisplayqos \
@@ -1574,10 +1571,13 @@ PRODUCT_PACKAGES += \
     libqll10 \
     libqllengine \
     libqmi \
+    libqmi_cci \
     libqmi_client_helper \
     libqmi_client_qmux \
+    libqmi_common_so \
     libqmi_csi \
     libqmi_csvt_srvc \
+    libqmi_encdec \
     libqmi_legacy \
     libqmiextservices \
     libqmiservices \
