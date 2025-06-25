@@ -26,6 +26,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/xiaomi/garnet/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
     vendor/xiaomi/garnet/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
+    vendor/xiaomi/garnet/proprietary/vendor/bin/agmcap:$(TARGET_COPY_OUT_VENDOR)/bin/agmcap \
+    vendor/xiaomi/garnet/proprietary/vendor/bin/agmcompressplay:$(TARGET_COPY_OUT_VENDOR)/bin/agmcompressplay \
+    vendor/xiaomi/garnet/proprietary/vendor/bin/agmplay:$(TARGET_COPY_OUT_VENDOR)/bin/agmplay \
+    vendor/xiaomi/garnet/proprietary/vendor/bin/hw/vendor.qti.hardware.AGMIPC@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.AGMIPC@1.0-service \
     vendor/xiaomi/garnet/proprietary/vendor/etc/1-SN1X0_SPC.txt:$(TARGET_COPY_OUT_VENDOR)/etc/1-SN1X0_SPC.txt \
     vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/Mise/Mise_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Mise/Mise_acdb_cal.acdb \
     vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/Mise/Mise_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Mise/Mise_workspaceFileXml.qwsp \
@@ -543,6 +547,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.qti.diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
+    vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.qti.hardware.AGMIPC@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.AGMIPC@1.0-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
@@ -925,7 +930,45 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/hw/audio.primary.parrot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.parrot.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/hw/gyro_fusion_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gyro_fusion_interface.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/lib_bt_aptx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_aptx.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/lib_bt_ble.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_ble.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/lib_bt_bundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_bundle.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/lib_misound_asc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_misound_asc.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadm.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libagm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libagm_compress_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_compress_plugin.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libagm_mixer_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_mixer_plugin.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libagm_pcm_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_pcm_plugin.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libagmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmclient.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libagmmixer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmmixer.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libar-acdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-acdb.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libar-gpr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gpr.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libar-gsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gsl.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libar-pal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-pal.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libats.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libaudiocloudctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocloudctrl.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libaudioroute_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioroute_ext.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libawcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libawcal.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libcapiv2svacnnvendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svacnnvendor.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libcapiv2svarnnvendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svarnnvendor.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libcapiv2uvvendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2uvvendor.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libfsalgocal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfsalgocal.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libkaraokepal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkaraokepal.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/liblx-ar_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-ar_util.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/liblx-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-osal.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libmcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmcs.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libpalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpalclient.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libqtigefar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigefar.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libresampler.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/libsndcardparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsndcardparser.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.AGMIPC@1.0.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.pal@1.0-impl.so \
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/vendor.qti.hardware.pal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.pal@1.0.so
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
@@ -1162,13 +1205,11 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-aidl-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
     audio.bluetooth_qti.default \
-    audio.primary.parrot \
     camera.qcom \
     camera.xiaomi \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
     consumerir.qcom \
-    gyro_fusion_interface \
     sound_trigger.primary.parrot \
     vendor.qti.esepowermanager@1.1-impl \
     vendor.qti.hardware.alarm@1.0-impl \
@@ -1255,15 +1296,9 @@ PRODUCT_PACKAGES += \
     libSnpeHtpV73Stub \
     libTrueSight \
     libXMFaceFocus \
-    lib_bt_aptx \
-    lib_bt_ble \
-    lib_bt_bundle \
-    lib_misound_asc \
     libadaptlaunch \
-    libadm \
     libadsp_default_listener \
     libadsprpc \
-    libagm \
     libaidenoiser \
     libalCFR \
     libalLDC \
@@ -1274,10 +1309,6 @@ PRODUCT_PACKAGES += \
     libancbase \
     libapengine \
     libappclassifier \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
-    libar-pal \
     libarcsoft_beautyshot \
     libarcsoft_dualcam_refocus_image \
     libarcsoft_dualcam_refocus_video \
@@ -1290,11 +1321,6 @@ PRODUCT_PACKAGES += \
     libasn1cper \
     libasn1crt \
     libasn1crtx \
-    libats \
-    libaudio_log_utils \
-    libaudiocloudctrl \
-    libaudioroute_ext \
-    libawcal \
     libbacklight-calib \
     libbase64 \
     libbatching \
@@ -1328,9 +1354,6 @@ PRODUCT_PACKAGES += \
     libcamxswispiqmodule \
     libcamxswprocessalgo \
     libcamxtintlessalgo \
-    libcapiv2svacnnvendor \
-    libcapiv2svarnnvendor \
-    libcapiv2uvvendor \
     libcdfw \
     libcdfw_remote_api \
     libcdsp_default_listener \
@@ -1373,7 +1396,6 @@ PRODUCT_PACKAGES += \
     libfastcrc \
     libfastcvdsp_stub \
     libfastcvopt \
-    libfsalgocal \
     libgame_enhance \
     libgarden \
     libgarden_haltests_e2e \
@@ -1399,7 +1421,6 @@ PRODUCT_PACKAGES += \
     libizat_core \
     libjnihelper \
     libjpege \
-    libkaraokepal \
     libkeymasterdeviceutils \
     libkeymasterprovision \
     libkeymasterutils \
@@ -1427,10 +1448,7 @@ PRODUCT_PACKAGES += \
     liblowi_common \
     liblowi_wifihal \
     liblqe \
-    liblx-ar_util \
-    liblx-osal \
     libmasc \
-    libmcs \
     libmctfengine_stub \
     libmdmdetect \
     libmdsprpc \
@@ -1599,7 +1617,6 @@ PRODUCT_PACKAGES += \
     libqti-perfd \
     libqti-util \
     libqti-utils \
-    libqtigefar \
     libqtikeymaster4 \
     libqtikeymint \
     libquickcamera \
@@ -1609,7 +1626,6 @@ PRODUCT_PACKAGES += \
     librelight_only \
     libremosaic_wrapper \
     libremosaiclib \
-    libresampler \
     libril-db \
     libril-legacy \
     libril-qc-ltedirectdisc \
@@ -1763,7 +1779,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.esepowermanager@1.1 \
     vendor.qti.gnss-V3-ndk_platform \
     vendor.qti.gnss-service \
-    vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.hardware.ListenSoundModel@1.0-impl \
     vendor.qti.hardware.ListenSoundModel@1.0 \
     vendor.qti.hardware.alarm@1.0 \
@@ -2034,6 +2049,8 @@ PRODUCT_PACKAGES += \
     c2_manifest_vendor_audio.xml \
     dataconnection-saidl.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
+    manifest_non_qmaa.xml \
+    manifest_non_qmaa_extn.xml \
     manifest_vendor.xiaomi.hardware.mfidoca.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
     manifest_vendor.xiaomi.hardware.mtdservice.xml \
