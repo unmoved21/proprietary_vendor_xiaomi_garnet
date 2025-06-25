@@ -33962,38 +33962,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "cnss_diag",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/cnss_diag",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libdiag",
-                "libhardware_legacy",
-                "libtime_genoff",
-                "libnl",
-                "libcld80211",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "diag-router",
     owner: "xiaomi",
     target: {
