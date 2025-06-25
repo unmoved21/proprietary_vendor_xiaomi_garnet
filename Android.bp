@@ -13065,6 +13065,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libtinyalsa",
+                "libagmmixer",
                 "libc++",
                 "libc",
                 "libm",
@@ -15390,6 +15391,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libtinyalsa",
+                "libagmmixer",
                 "libar-pal",
                 "libc++",
                 "libc",
