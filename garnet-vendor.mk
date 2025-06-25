@@ -938,7 +938,6 @@ PRODUCT_PACKAGES += \
     libq3dtools_adreno \
     libq3dtools_esx \
     consumerir.qcom \
-    vulkan.adreno \
     libC2D2 \
     libCB \
     libOpenCL \
@@ -1193,6 +1192,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.wifidisplaysession@1.0-impl \
     vendor.qti.memory.pasrmanager@1.0-impl \
     vendor.xiaomi.hardware.quickcamera@1.0-impl \
+    vulkan.adreno \
     jcos_nq_client-v1 \
     lib-imscommon \
     lib-imsdpl \
