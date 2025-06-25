@@ -937,7 +937,6 @@ PRODUCT_PACKAGES += \
     libVkLayer_ADRENO_qprofiler \
     libq3dtools_adreno \
     libq3dtools_esx \
-    consumerir.qcom \
     libC2D2 \
     libCB \
     libOpenCL \
@@ -1175,6 +1174,7 @@ PRODUCT_PACKAGES += \
     camera.xiaomi \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
+    consumerir.qcom \
     gyro_fusion_interface \
     vendor.qti.esepowermanager@1.1-impl \
     vendor.qti.hardware.alarm@1.0-impl \
