@@ -1217,7 +1217,6 @@ PRODUCT_PACKAGES += \
     libHISCppAlgos \
     libMiMotion \
     libMiVDR \
-    libMiVideoFilter \
     libPlatformValidatorShared \
     libQSEEComAPI \
     libQTEEConnector_listener \
@@ -1363,7 +1362,6 @@ PRODUCT_PACKAGES += \
     libdisp-aba \
     libdisplayqos \
     libdisplayskuutils \
-    libdlrmsc \
     libdpmqmihal \
     libdpps \
     libdrmfs \
@@ -1936,7 +1934,6 @@ PRODUCT_PACKAGES += \
     libmmparser_lite \
     libmmrtpdecoder \
     libmmrtpencoder \
-    libqspm-mem-utils \
     libwfdavenhancements \
     libwfdcommonutils \
     libwfdconfigutils \
@@ -1954,8 +1951,6 @@ PRODUCT_PACKAGES += \
     libwfduibcsrcinterface \
     vendor.qti.hardware.wifidisplaysession@1.0 \
     vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
-    vendor.qti.qspmhal-V1-ndk \
-    com.qualcomm.qti.dpm.api@1.0 \
     lib-imsvideocodec \
     lib-imsvt \
     lib-imsvtextutils \
