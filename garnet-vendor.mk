@@ -949,8 +949,6 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
-    libpdmapper \
-    libpdnotifier \
     vendor.qti.qspmhal@1.0 \
     android.hardware.secure_element@1.0-impl \
     btaudio_offload_if \
@@ -1508,6 +1506,8 @@ PRODUCT_PACKAGES += \
     libos \
     libpal_net_if \
     libpasrutils \
+    libpdmapper \
+    libpdnotifier \
     libperfconfig \
     libperfgluelayer \
     libperfioctl \
