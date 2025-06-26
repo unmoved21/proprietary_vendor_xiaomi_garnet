@@ -16830,39 +16830,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmfido",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmfido.so",
-            ],
-            shared_libs: [
-                "vendor.xiaomi.hardware.mfidoca@1.0",
-                "vendor.xiaomi.hardware.mtdservice@1.0",
-                "liblog",
-                "libcutils",
-                "libutils",
-                "libQSEEComAPI",
-                "libhidlbase",
-                "libhidltransport",
-                "libmisight",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmiai_deblur",
     owner: "xiaomi",
     strip: {
@@ -18305,95 +18272,6 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libc",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmt",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmt.so",
-            ],
-            shared_libs: [
-                "libcrypto",
-                "libhardware",
-                "libkeymasterprovision",
-                "libkeymasterutils",
-                "libkeymasterdeviceutils",
-                "vendor.xiaomi.hardware.mtdservice@1.0",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhidlbase",
-                "libhidltransport",
-                "libQSEEComAPI",
-                "libmlipay",
-                "vendor.xiaomi.hardware.mlipay@1.0",
-                "libmfido",
-                "vendor.xiaomi.hardware.mfidoca@1.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmt@1.3",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmt@1.3.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libcrypto",
-                "libhardware",
-                "libselinux",
-                "libhidlbase",
-                "libhidltransport",
-                "libkeymasterprovision",
-                "libkeymasterutils",
-                "libkeymasterdeviceutils",
-                "libQSEEComAPI",
-                "vendor.xiaomi.hardware.mtdservice@1.3",
-                "vendor.xiaomi.hardware.mtdservice@1.2",
-                "vendor.xiaomi.hardware.mtdservice@1.1",
-                "vendor.xiaomi.hardware.mtdservice@1.0",
-                "libmlipay@1.1",
-                "vendor.xiaomi.hardware.mlipay@1.1",
-                "libmfido",
-                "vendor.xiaomi.hardware.mfidoca@1.0",
-                "libxml2",
-                "libwvkeybox",
-                "liboemcrypto",
-                "libqtikeymaster4",
-                "libmisight",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
             ],
         },
     },
@@ -23646,46 +23524,6 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libos",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libtida@1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libtida@1.2.so",
-            ],
-            shared_libs: [
-                "vendor.xiaomi.hardware.tidaservice@1.0",
-                "vendor.xiaomi.hardware.tidaservice@1.1",
-                "vendor.xiaomi.hardware.tidaservice@1.2",
-                "vendor.xiaomi.hardware.mtdservice@1.0",
-                "libbase",
-                "libcrypto",
-                "libcutils",
-                "liblog",
-                "libmt",
-                "libutils",
-                "libQSEEComAPI",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libhwbinder",
-                "libmisight",
                 "libc++",
                 "libc",
                 "libm",
@@ -30392,93 +30230,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.tidaservice@1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.tidaservice@1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so",
-            ],
-            shared_libs: [
-                "vendor.xiaomi.hardware.tidaservice@1.0",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.tidaservice@1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.2.so",
-            ],
-            shared_libs: [
-                "vendor.xiaomi.hardware.tidaservice@1.0",
-                "vendor.xiaomi.hardware.tidaservice@1.1",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
 prebuilt_rfsa {
     name: "bm2n31",
     filename: "bm2n31.bin",
@@ -33015,36 +32766,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "manifest_vendor.xiaomi.hardware.mfidoca.xml",
-    owner: "xiaomi",
-    src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mfidoca.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "manifest_vendor.xiaomi.hardware.mlipay.xml",
     owner: "xiaomi",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "manifest_vendor.xiaomi.hardware.mtdservice.xml",
-    owner: "xiaomi",
-    src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "manifest_vendor.xiaomi.hardware.tidaservice.xml",
-    owner: "xiaomi",
-    src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.tidaservice.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
@@ -33554,40 +33278,6 @@ cc_prebuilt_binary {
                 "liblog",
                 "liblocdiagiface",
                 "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "fidoca",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/fidoca",
-            ],
-            shared_libs: [
-                "vendor.xiaomi.hardware.mfidoca@1.0",
-                "vendor.xiaomi.hardware.mtdservice@1.0",
-                "liblog",
-                "libcutils",
-                "libutils",
-                "libQSEEComAPI",
-                "libhidlbase",
-                "libhidltransport",
-                "libmisight",
-                "libmfido",
                 "libc++",
                 "libc",
                 "libm",
@@ -35090,38 +34780,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "mtd@1.3",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/mtd@1.3",
-            ],
-            shared_libs: [
-                "vendor.xiaomi.hardware.mtdservice@1.3",
-                "libmt@1.3",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libselinux",
-                "libhidltransport",
-                "libhidlbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "netmgrd",
     owner: "xiaomi",
     target: {
@@ -36383,47 +36041,6 @@ cc_prebuilt_binary {
                 "libqmi_common_so",
                 "libqmi_cci",
                 "libnl",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "tidad@1.2",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/tidad@1.2",
-            ],
-            shared_libs: [
-                "vendor.xiaomi.hardware.tidaservice@1.0",
-                "vendor.xiaomi.hardware.tidaservice@1.1",
-                "vendor.xiaomi.hardware.tidaservice@1.2",
-                "vendor.xiaomi.hardware.mtdservice@1.0",
-                "libbase",
-                "libcrypto",
-                "libcutils",
-                "liblog",
-                "libmt",
-                "libutils",
-                "libQSEEComAPI",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libhwbinder",
-                "libmisight",
-                "libtida@1.2",
                 "libc++",
                 "libc",
                 "libm",

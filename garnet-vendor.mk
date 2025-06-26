@@ -569,10 +569,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.wlan.lowirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.wlan.lowirpcd.rc \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vmmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vmmgr.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
@@ -1459,7 +1456,6 @@ PRODUCT_PACKAGES += \
     libmeters-ns \
     libmeters \
     libmfGhostDetection \
-    libmfido \
     libmiai_deblur \
     libmiai_portraitsupernight \
     libmialgo_ai_vision \
@@ -1506,8 +1502,6 @@ PRODUCT_PACKAGES += \
     libmorpho_ubwc \
     libmorpho_video_stabilizer \
     libmpbase \
-    libmt \
-    libmt@1.3 \
     libnative-api \
     libnetmgr \
     libnetmgr_common \
@@ -1680,7 +1674,6 @@ PRODUCT_PACKAGES += \
     libtfestriping \
     libthermalclient \
     libthreadutils \
-    libtida@1.2 \
     libtime_genoff \
     libtinyxml2_1 \
     libtrustedapploader \
@@ -1901,9 +1894,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
     vendor.xiaomi.hardware.quickcamera@1.0 \
-    vendor.xiaomi.hardware.tidaservice@1.0 \
-    vendor.xiaomi.hardware.tidaservice@1.1 \
-    vendor.xiaomi.hardware.tidaservice@1.2 \
     bm2n31 \
     bm2n32 \
     bm2n33 \
@@ -2053,10 +2043,7 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_non_qmaa.xml \
     manifest_non_qmaa_extn.xml \
-    manifest_vendor.xiaomi.hardware.mfidoca.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
-    manifest_vendor.xiaomi.hardware.mtdservice.xml \
-    manifest_vendor.xiaomi.hardware.tidaservice.xml \
     qtiradio-saidl.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.gnss-service.xml \
@@ -2080,7 +2067,6 @@ PRODUCT_PACKAGES += \
     dspservice \
     edgnss-daemon \
     engine-service \
-    fidoca \
     garden_app \
     android.hardware.bluetooth@1.0-service-qti \
     android.hardware.drm@1.4-service.widevine \
@@ -2141,7 +2127,6 @@ PRODUCT_PACKAGES += \
     mlid \
     mlipayd@1.1 \
     msm_irqbalance \
-    mtd@1.3 \
     netmgrd \
     nv_mac \
     pd-mapper \
@@ -2186,7 +2171,6 @@ PRODUCT_PACKAGES += \
     subsystem_ramdump \
     tftp_server \
     thermal-engine-v2 \
-    tidad@1.2 \
     time_daemon \
     vendor.dpmd \
     vendor.qti.hardware.soter@1.0-provision \
