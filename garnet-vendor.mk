@@ -1208,7 +1208,6 @@ PRODUCT_PACKAGES += \
     camera.xiaomi \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
-    consumerir.qcom \
     sound_trigger.primary.parrot \
     vendor.qti.esepowermanager@1.1-impl \
     vendor.qti.hardware.alarm@1.0-impl \
